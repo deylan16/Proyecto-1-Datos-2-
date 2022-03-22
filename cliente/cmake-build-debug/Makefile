@@ -152,6 +152,54 @@ Clientec/Cliente.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Clientec/Cliente.cpp.s
 .PHONY : Clientec/Cliente.cpp.s
 
+Interfaz/Componentes.obj: Interfaz/Componentes.cpp.obj
+.PHONY : Interfaz/Componentes.obj
+
+# target to build an object file
+Interfaz/Componentes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj
+.PHONY : Interfaz/Componentes.cpp.obj
+
+Interfaz/Componentes.i: Interfaz/Componentes.cpp.i
+.PHONY : Interfaz/Componentes.i
+
+# target to preprocess a source file
+Interfaz/Componentes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.i
+.PHONY : Interfaz/Componentes.cpp.i
+
+Interfaz/Componentes.s: Interfaz/Componentes.cpp.s
+.PHONY : Interfaz/Componentes.s
+
+# target to generate assembly for a file
+Interfaz/Componentes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.s
+.PHONY : Interfaz/Componentes.cpp.s
+
+Interfaz/Ventana.obj: Interfaz/Ventana.cpp.obj
+.PHONY : Interfaz/Ventana.obj
+
+# target to build an object file
+Interfaz/Ventana.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj
+.PHONY : Interfaz/Ventana.cpp.obj
+
+Interfaz/Ventana.i: Interfaz/Ventana.cpp.i
+.PHONY : Interfaz/Ventana.i
+
+# target to preprocess a source file
+Interfaz/Ventana.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.i
+.PHONY : Interfaz/Ventana.cpp.i
+
+Interfaz/Ventana.s: Interfaz/Ventana.cpp.s
+.PHONY : Interfaz/Ventana.s
+
+# target to generate assembly for a file
+Interfaz/Ventana.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.s
+.PHONY : Interfaz/Ventana.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -188,6 +236,12 @@ help:
 	@echo ... Clientec/Cliente.obj
 	@echo ... Clientec/Cliente.i
 	@echo ... Clientec/Cliente.s
+	@echo ... Interfaz/Componentes.obj
+	@echo ... Interfaz/Componentes.i
+	@echo ... Interfaz/Componentes.s
+	@echo ... Interfaz/Ventana.obj
+	@echo ... Interfaz/Ventana.i
+	@echo ... Interfaz/Ventana.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

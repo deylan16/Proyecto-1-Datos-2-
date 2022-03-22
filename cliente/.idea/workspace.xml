@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="cliente" targetName="cliente" />
@@ -38,11 +41,22 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente" />
+      <recent name="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Interfaz" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Interfaz" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="cliente" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cliente" TARGET_NAME="cliente" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cliente" RUN_TARGET_NAME="cliente">
@@ -64,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647465596275</updated>
-      <workItem from="1647465599444" duration="400000" />
+      <workItem from="1647465599444" duration="10754000" />
+      <workItem from="1647900948042" duration="12908000" />
     </task>
     <servers />
   </component>

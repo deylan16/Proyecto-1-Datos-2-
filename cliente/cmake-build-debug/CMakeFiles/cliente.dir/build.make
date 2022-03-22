@@ -66,6 +66,7 @@ include CMakeFiles/cliente.dir/progress.make
 include CMakeFiles/cliente.dir/flags.make
 
 CMakeFiles/cliente.dir/main.cpp.obj: CMakeFiles/cliente.dir/flags.make
+CMakeFiles/cliente.dir/main.cpp.obj: CMakeFiles/cliente.dir/includes_CXX.rsp
 CMakeFiles/cliente.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cliente.dir/main.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cliente.dir\main.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\main.cpp"
@@ -79,6 +80,7 @@ CMakeFiles/cliente.dir/main.cpp.s: cmake_force
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\main.cpp" -o CMakeFiles\cliente.dir\main.cpp.s
 
 CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj: CMakeFiles/cliente.dir/flags.make
+CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj: CMakeFiles/cliente.dir/includes_CXX.rsp
 CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj: ../Clientec/Cliente.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cliente.dir\Clientec\Cliente.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Clientec\Cliente.cpp"
@@ -91,21 +93,56 @@ CMakeFiles/cliente.dir/Clientec/Cliente.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cliente.dir/Clientec/Cliente.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Clientec\Cliente.cpp" -o CMakeFiles\cliente.dir\Clientec\Cliente.cpp.s
 
+CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj: CMakeFiles/cliente.dir/flags.make
+CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj: CMakeFiles/cliente.dir/includes_CXX.rsp
+CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj: ../Interfaz/Ventana.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cliente.dir\Interfaz\Ventana.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Interfaz\Ventana.cpp"
+
+CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Interfaz\Ventana.cpp" > CMakeFiles\cliente.dir\Interfaz\Ventana.cpp.i
+
+CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Interfaz\Ventana.cpp" -o CMakeFiles\cliente.dir\Interfaz\Ventana.cpp.s
+
+CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj: CMakeFiles/cliente.dir/flags.make
+CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj: CMakeFiles/cliente.dir/includes_CXX.rsp
+CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj: ../Interfaz/Componentes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cliente.dir\Interfaz\Componentes.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Interfaz\Componentes.cpp"
+
+CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Interfaz\Componentes.cpp" > CMakeFiles\cliente.dir\Interfaz\Componentes.cpp.i
+
+CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Interfaz\Componentes.cpp" -o CMakeFiles\cliente.dir\Interfaz\Componentes.cpp.s
+
 # Object files for target cliente
 cliente_OBJECTS = \
 "CMakeFiles/cliente.dir/main.cpp.obj" \
-"CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj"
+"CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj" \
+"CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj" \
+"CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj"
 
 # External object files for target cliente
 cliente_EXTERNAL_OBJECTS =
 
 cliente.exe: CMakeFiles/cliente.dir/main.cpp.obj
 cliente.exe: CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj
+cliente.exe: CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj
+cliente.exe: CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj
 cliente.exe: CMakeFiles/cliente.dir/build.make
+cliente.exe: C:/mingw64/lib/libsfml-graphics-d.a
+cliente.exe: C:/mingw64/lib/libsfml-window-d.a
+cliente.exe: C:/mingw64/lib/libsfml-system-d.a
 cliente.exe: CMakeFiles/cliente.dir/linklibs.rsp
 cliente.exe: CMakeFiles/cliente.dir/objects1.rsp
 cliente.exe: CMakeFiles/cliente.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cliente.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cliente.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cliente.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,6 +6,6 @@ int main() {
     while(true)
     {
         Servidor->Recibir();
-        Servidor->Enviar();
+        //Servidor->Enviar();
     }
 }

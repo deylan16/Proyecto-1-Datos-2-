@@ -9,12 +9,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Cliente.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/cmake-build-debug/CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj"
+  "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Componentes.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/cmake-build-debug/CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj"
+  "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Ventana.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/cmake-build-debug/CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj"
   "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/main.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/cmake-build-debug/CMakeFiles/cliente.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "C:/mingw64/include"
   )
 
 # The set of dependency files which are needed:

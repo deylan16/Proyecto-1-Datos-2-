@@ -27,6 +27,7 @@ Server::Server() {
 std::string Server::Recibir() {
     recv(client, buffer, sizeof(buffer), 0);
     std::cout << "El cliente dice: " << buffer << std::endl;
+
     memset(buffer, 0, sizeof(buffer));
 }
 

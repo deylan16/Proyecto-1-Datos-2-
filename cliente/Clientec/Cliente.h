@@ -15,7 +15,7 @@ public:
     char buffer[1024];
 
     Cliente();
-    void Enviar();
+    void Enviar(std::string mensaje);
     void Recibir();
     void CerrarSocket();
 };
