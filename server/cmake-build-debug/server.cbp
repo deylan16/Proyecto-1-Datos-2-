@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Datos_juego.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Datos_juego.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Lectura_Mensajes.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Lectura_Mensajes.h">
+			<Option target="server"/>
+		</Unit>
 		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Server.cpp">
 			<Option target="server"/>
 		</Unit>

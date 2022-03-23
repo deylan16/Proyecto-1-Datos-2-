@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj"
+  "CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.obj"
   "CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj"
   "CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj"
   "CMakeFiles/cliente.dir/main.cpp.obj"

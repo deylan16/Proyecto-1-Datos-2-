@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Cliente.h">
 			<Option target="cliente"/>
 		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Lectura_Mensajes.cpp">
+			<Option target="cliente"/>
+		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Lectura_Mensajes.h">
+			<Option target="cliente"/>
+		</Unit>
 		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Componentes.cpp">
 			<Option target="cliente"/>
 		</Unit>

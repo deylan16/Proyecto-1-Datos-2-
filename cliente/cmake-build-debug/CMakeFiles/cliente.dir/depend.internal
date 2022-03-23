@@ -4,6 +4,10 @@
 CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Cliente.cpp
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Cliente.h
+ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Lectura_Mensajes.h
+CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.obj
+ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Lectura_Mensajes.cpp
+ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Lectura_Mensajes.h
 CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Componentes.cpp
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Componentes.h
@@ -57,6 +61,7 @@ CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj
  C:/mingw64/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Cliente.h
+ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Lectura_Mensajes.h
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Componentes.h
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Ventana.cpp
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Ventana.h
@@ -136,6 +141,7 @@ CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj
  C:/mingw64/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/cliente.dir/main.cpp.obj
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Cliente.h
+ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Lectura_Mensajes.h
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Componentes.h
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Ventana.h
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/main.cpp

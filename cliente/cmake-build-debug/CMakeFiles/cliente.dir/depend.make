@@ -3,7 +3,11 @@
 
 CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj: \
  ../Clientec/Cliente.cpp \
- ../Clientec/Cliente.h
+ ../Clientec/Cliente.h \
+ ../Clientec/Lectura_Mensajes.h
+CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.obj: \
+ ../Clientec/Lectura_Mensajes.cpp \
+ ../Clientec/Lectura_Mensajes.h
 CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj: \
  ../Interfaz/Componentes.cpp \
  ../Interfaz/Componentes.h \
@@ -57,6 +61,7 @@ CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj: \
  C:/mingw64/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj: \
  ../Clientec/Cliente.h \
+ ../Clientec/Lectura_Mensajes.h \
  ../Interfaz/Componentes.h \
  ../Interfaz/Ventana.cpp \
  ../Interfaz/Ventana.h \
@@ -136,6 +141,7 @@ CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj: \
  C:/mingw64/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/cliente.dir/main.cpp.obj: \
  ../Clientec/Cliente.h \
+ ../Clientec/Lectura_Mensajes.h \
  ../Interfaz/Componentes.h \
  ../Interfaz/Ventana.h \
  ../main.cpp \

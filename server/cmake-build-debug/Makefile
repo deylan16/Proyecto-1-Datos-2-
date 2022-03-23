@@ -128,6 +128,54 @@ server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/build
 .PHONY : server/fast
 
+Servidor/Datos_juego.obj: Servidor/Datos_juego.cpp.obj
+.PHONY : Servidor/Datos_juego.obj
+
+# target to build an object file
+Servidor/Datos_juego.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj
+.PHONY : Servidor/Datos_juego.cpp.obj
+
+Servidor/Datos_juego.i: Servidor/Datos_juego.cpp.i
+.PHONY : Servidor/Datos_juego.i
+
+# target to preprocess a source file
+Servidor/Datos_juego.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Servidor/Datos_juego.cpp.i
+.PHONY : Servidor/Datos_juego.cpp.i
+
+Servidor/Datos_juego.s: Servidor/Datos_juego.cpp.s
+.PHONY : Servidor/Datos_juego.s
+
+# target to generate assembly for a file
+Servidor/Datos_juego.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Servidor/Datos_juego.cpp.s
+.PHONY : Servidor/Datos_juego.cpp.s
+
+Servidor/Lectura_Mensajes.obj: Servidor/Lectura_Mensajes.cpp.obj
+.PHONY : Servidor/Lectura_Mensajes.obj
+
+# target to build an object file
+Servidor/Lectura_Mensajes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj
+.PHONY : Servidor/Lectura_Mensajes.cpp.obj
+
+Servidor/Lectura_Mensajes.i: Servidor/Lectura_Mensajes.cpp.i
+.PHONY : Servidor/Lectura_Mensajes.i
+
+# target to preprocess a source file
+Servidor/Lectura_Mensajes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.i
+.PHONY : Servidor/Lectura_Mensajes.cpp.i
+
+Servidor/Lectura_Mensajes.s: Servidor/Lectura_Mensajes.cpp.s
+.PHONY : Servidor/Lectura_Mensajes.s
+
+# target to generate assembly for a file
+Servidor/Lectura_Mensajes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.s
+.PHONY : Servidor/Lectura_Mensajes.cpp.s
+
 Servidor/Server.obj: Servidor/Server.cpp.obj
 .PHONY : Servidor/Server.obj
 
@@ -185,6 +233,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... server
+	@echo ... Servidor/Datos_juego.obj
+	@echo ... Servidor/Datos_juego.i
+	@echo ... Servidor/Datos_juego.s
+	@echo ... Servidor/Lectura_Mensajes.obj
+	@echo ... Servidor/Lectura_Mensajes.i
+	@echo ... Servidor/Lectura_Mensajes.s
 	@echo ... Servidor/Server.obj
 	@echo ... Servidor/Server.i
 	@echo ... Servidor/Server.s

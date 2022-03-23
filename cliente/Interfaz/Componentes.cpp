@@ -19,11 +19,8 @@ void Componentes::creaCajadeTexto(int posicionx, int posiciony, int ancho, int a
     text2.setString(texto),text2.setCharacterSize(30),text2.setFillColor(sf::Color::Green),text2.setPosition(posicionx,posiciony),ptrwindow->draw(text2);
 
     if (posicionx<this->mousex && this->mousex<(posicionx+ancho) && this->mousey<(posiciony+alto) && this->mousey>posiciony)
-        while (ptrwindow->pollEvent(event)){
         if (sf::Mouse::isButtonPressed(sf::Mouse::Left)){
-
             *ptrescibiendo = true;}
-        }
 }
 
 void Componentes::setPtrwindow(sf::RenderWindow *window) {

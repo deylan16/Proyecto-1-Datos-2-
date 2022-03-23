@@ -11,7 +11,7 @@
 class Componentes {
 public:
     bool *ptrescibiendo;
-
+    std::string entrada_texto;
     sf::Event event;
     sf::RenderWindow *ptrwindow ;
     int mousex;

@@ -6,6 +6,7 @@
 #include <iostream>
 
 Server::Server() {
+    lector->setptrmensaje_a_enviar(ptrmensaje_a_enviar);
     WSAStartup(MAKEWORD(2,0), &WSAData);
     server = socket(AF_INET, SOCK_STREAM, 0);
 
@@ -26,17 +27,27 @@ Server::Server() {
 
 std::string Server::Recibir() {
     recv(client, buffer, sizeof(buffer), 0);
-    std::cout << "El cliente dice: " << buffer << std::endl;
+    //std::cout << "El cliente dice: " << buffer << std::endl;
+    lector->mensaje_entrante(buffer);
+    while(true){
+        if(mensaje_a_enviar != ""){
+            this->Enviar(mensaje_a_enviar);
+            break;
+            }
+    }
 
     memset(buffer, 0, sizeof(buffer));
 }
 
-void Server::Enviar() {
-    std::cout<<"Escribe el mensaje a enviar: ";
-    std::cin>>this->buffer;
+void Server::Enviar(std::string mensaje) {
+    //std::cout<<"Escribe el mensaje a enviar: ";
+    for (int i = 0; i <= mensaje.length(); i = i + 1) {
+        this->buffer[i] = mensaje[i];
+
+    }
     send(client, buffer, sizeof(buffer), 0);
     memset(buffer, 0, sizeof(buffer));
-    std::cout << "Mensaje enviado!" <<  std::endl;
+    //std::cout << "Mensaje enviado!" <<  std::endl;
 
 }
 

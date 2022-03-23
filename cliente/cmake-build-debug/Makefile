@@ -152,6 +152,30 @@ Clientec/Cliente.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Clientec/Cliente.cpp.s
 .PHONY : Clientec/Cliente.cpp.s
 
+Clientec/Lectura_Mensajes.obj: Clientec/Lectura_Mensajes.cpp.obj
+.PHONY : Clientec/Lectura_Mensajes.obj
+
+# target to build an object file
+Clientec/Lectura_Mensajes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.obj
+.PHONY : Clientec/Lectura_Mensajes.cpp.obj
+
+Clientec/Lectura_Mensajes.i: Clientec/Lectura_Mensajes.cpp.i
+.PHONY : Clientec/Lectura_Mensajes.i
+
+# target to preprocess a source file
+Clientec/Lectura_Mensajes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.i
+.PHONY : Clientec/Lectura_Mensajes.cpp.i
+
+Clientec/Lectura_Mensajes.s: Clientec/Lectura_Mensajes.cpp.s
+.PHONY : Clientec/Lectura_Mensajes.s
+
+# target to generate assembly for a file
+Clientec/Lectura_Mensajes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.s
+.PHONY : Clientec/Lectura_Mensajes.cpp.s
+
 Interfaz/Componentes.obj: Interfaz/Componentes.cpp.obj
 .PHONY : Interfaz/Componentes.obj
 
@@ -236,6 +260,9 @@ help:
 	@echo ... Clientec/Cliente.obj
 	@echo ... Clientec/Cliente.i
 	@echo ... Clientec/Cliente.s
+	@echo ... Clientec/Lectura_Mensajes.obj
+	@echo ... Clientec/Lectura_Mensajes.i
+	@echo ... Clientec/Lectura_Mensajes.s
 	@echo ... Interfaz/Componentes.obj
 	@echo ... Interfaz/Componentes.i
 	@echo ... Interfaz/Componentes.s

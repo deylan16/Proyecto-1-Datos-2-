@@ -91,21 +91,51 @@ CMakeFiles/server.dir/Servidor/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Servidor/Server.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Server.cpp" -o CMakeFiles\server.dir\Servidor\Server.cpp.s
 
+CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj: ../Servidor/Lectura_Mensajes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\Servidor\Lectura_Mensajes.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Lectura_Mensajes.cpp"
+
+CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Lectura_Mensajes.cpp" > CMakeFiles\server.dir\Servidor\Lectura_Mensajes.cpp.i
+
+CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Lectura_Mensajes.cpp" -o CMakeFiles\server.dir\Servidor\Lectura_Mensajes.cpp.s
+
+CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj: ../Servidor/Datos_juego.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\Servidor\Datos_juego.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Datos_juego.cpp"
+
+CMakeFiles/server.dir/Servidor/Datos_juego.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/Servidor/Datos_juego.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Datos_juego.cpp" > CMakeFiles\server.dir\Servidor\Datos_juego.cpp.i
+
+CMakeFiles/server.dir/Servidor/Datos_juego.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Servidor/Datos_juego.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Datos_juego.cpp" -o CMakeFiles\server.dir\Servidor\Datos_juego.cpp.s
+
 # Object files for target server
 server_OBJECTS = \
 "CMakeFiles/server.dir/main.cpp.obj" \
-"CMakeFiles/server.dir/Servidor/Server.cpp.obj"
+"CMakeFiles/server.dir/Servidor/Server.cpp.obj" \
+"CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj" \
+"CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj"
 
 # External object files for target server
 server_EXTERNAL_OBJECTS =
 
 server.exe: CMakeFiles/server.dir/main.cpp.obj
 server.exe: CMakeFiles/server.dir/Servidor/Server.cpp.obj
+server.exe: CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj
+server.exe: CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj
 server.exe: CMakeFiles/server.dir/build.make
 server.exe: CMakeFiles/server.dir/linklibs.rsp
 server.exe: CMakeFiles/server.dir/objects1.rsp
 server.exe: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable server.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable server.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\server.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

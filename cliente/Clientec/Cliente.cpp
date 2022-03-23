@@ -8,7 +8,8 @@
 
 using namespace std;
 
-Cliente::Cliente() {
+Cliente::Cliente(Lectura_Mensajes *Entrada_lector) {
+    lector = Entrada_lector;
     cout<<"Conectando al servidor..."<<endl<<endl;
     WSAStartup(MAKEWORD(2,0), &WSAData);
     server = socket(AF_INET, SOCK_STREAM, 0);
@@ -20,7 +21,7 @@ Cliente::Cliente() {
 }
 
 void Cliente::Enviar(std::string mensaje) {
-    cout<<"Escribe el mensaje a enviar: ";
+    //cout<<"Escribe el mensaje a enviar: ";
     for (int i = 0; i <= mensaje.length(); i = i + 1) {
         this->buffer[i] = mensaje[i];
 
@@ -30,12 +31,16 @@ void Cliente::Enviar(std::string mensaje) {
 
     memset(buffer, 0, sizeof(buffer));
 
-    cout << "Mensaje enviado!" << endl;
+    //cout << "Mensaje enviado!" << endl;
+    this->Recibir();
 }
 
 void Cliente::Recibir() {
     recv(server, buffer, sizeof(buffer), 0);
-    cout << "El servidor dice: " << buffer << endl;
+    //cout << "El servidor dice: " << buffer << endl;
+    std::cout<<"cliente"<<lector->getptrseleccionar_jugador2()<<"\n";
+    lector->mensaje_entrante(buffer);
+    std::cout<<"cliente2"<<lector->getptrseleccionar_jugador2()<<"\n";
     memset(buffer, 0, sizeof(buffer));
 }
 

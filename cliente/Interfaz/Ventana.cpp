@@ -8,8 +8,27 @@
 
 void Ventana::ventana_principal() {
 
+    // Creamos una textura
+    sf::Texture textura;
+
+    // Cargamos la textura desde un archivo
+    if(!textura.loadFromFile("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\Interfaz\\Reverso_Carta.png"))
+    {
+        // Si hay un error salimos
+        std::cout<< "fallo";
+    }
+
+
+    sf::Sprite sprite;
+    sprite.setTexture(textura);
+    sprite.move(50, 100);
+
+
+
+
     while (ptrwindow->isOpen())
     {
+
         //componentes->setWindow(window);
         int mousex =sf::Mouse::getPosition(*ptrwindow).x;
         int mousey = sf::Mouse::getPosition( *ptrwindow).y;
@@ -19,23 +38,15 @@ void Ventana::ventana_principal() {
         componentes->setevent(event);
         componentes->ptrescibiendo = &escribiendo;
         componentes->setposicion_mouse(mousex,mousey);
+
         int contadorborrar = 1;
         while (ptrwindow->pollEvent(event))
         {
-
             if (event.type == sf::Event::Closed)
                 ptrwindow->close();
-            if(seleccionado_jugadores){
-
-
-
-
-
-
-
-            }
 
             if (escribiendo){
+
                 if (sf::Keyboard::isKeyPressed(sf::Keyboard::A) ){
                     if(contadorborrar == 1)
                         entrada.append("a");
@@ -175,8 +186,9 @@ void Ventana::ventana_principal() {
             }
         }
         ptrwindow->clear();
-        seleccion_jugadores();
-        //sf::RectangleShape CajadeTextoNombreJugador(sf::Vector2f(400.f,30.f));CajadeTextoNombreJugador.setPosition(100,240);CajadeTextoNombreJugador.setFillColor(sf::Color::Blue);window.draw(CajadeTextoNombreJugador);
+        ptrwindow->draw(sprite);
+        if(seleccionado_jugadores)
+            seleccion_jugadores();
 
         ptrwindow->display();
 
@@ -185,8 +197,9 @@ void Ventana::ventana_principal() {
 }
 
 Ventana::Ventana(Cliente Scliente1, sf::RenderWindow *window) {
-    this->Scliente = Scliente1;
+    this->Scliente = &Scliente1;
     this->ptrwindow = window;
+
 
 }
 
@@ -201,8 +214,19 @@ void Ventana::seleccion_jugadores() {
     if(componentes->creaBoton(100, 280, 100, 30, "Aceptar")){
         contador_botones -= 1;//sintaxis porque sino lo envia 4 veces
         if (contador_botones == 0){
-            Scliente.Enviar(entrada);
-            seleccionar_jugador2 = true;
+            if(not seleccionar_jugador2){
+                std::cout<<"!";
+                Scliente->Enviar("J1"+entrada);
+                entrada = "";
+            }
+            if(seleccionar_jugador2){
+                if (entrada != ""){
+                    Scliente->Enviar("J2"+entrada);
+                    entrada = "";
+                }
+
+        }
+            //seleccionar_jugador2 = true;
             contador_botones = 4;//sintaxis porque sino lo envia 4 veces
         }
     }
