@@ -65,6 +65,8 @@ CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj: \
  ../Interfaz/Componentes.h \
  ../Interfaz/Ventana.cpp \
  ../Interfaz/Ventana.h \
+ ../Tarjetas/PtrTarjetas.h \
+ ../Tarjetas/Tarjeta.h \
  C:/mingw64/include/SFML/Config.hpp \
  C:/mingw64/include/SFML/Graphics.hpp \
  C:/mingw64/include/SFML/Graphics/BlendMode.hpp \
@@ -135,6 +137,85 @@ CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj: \
  C:/mingw64/include/SFML/Window/Mouse.hpp \
  C:/mingw64/include/SFML/Window/Sensor.hpp \
  C:/mingw64/include/SFML/Window/Touch.hpp \
+ C:/mingw64/include/SFML/Window/VideoMode.hpp \
+ C:/mingw64/include/SFML/Window/Window.hpp \
+ C:/mingw64/include/SFML/Window/WindowHandle.hpp \
+ C:/mingw64/include/SFML/Window/WindowStyle.hpp
+CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.obj: \
+ ../Tarjetas/PtrTarjetas.cpp \
+ ../Tarjetas/PtrTarjetas.h \
+ ../Tarjetas/Tarjeta.h \
+ C:/mingw64/include/SFML/Config.hpp \
+ C:/mingw64/include/SFML/Graphics/BlendMode.hpp \
+ C:/mingw64/include/SFML/Graphics/Color.hpp \
+ C:/mingw64/include/SFML/Graphics/Export.hpp \
+ C:/mingw64/include/SFML/Graphics/Image.hpp \
+ C:/mingw64/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/mingw64/include/SFML/Graphics/Rect.hpp \
+ C:/mingw64/include/SFML/Graphics/Rect.inl \
+ C:/mingw64/include/SFML/Graphics/RenderStates.hpp \
+ C:/mingw64/include/SFML/Graphics/RenderTarget.hpp \
+ C:/mingw64/include/SFML/Graphics/RenderWindow.hpp \
+ C:/mingw64/include/SFML/Graphics/Transform.hpp \
+ C:/mingw64/include/SFML/Graphics/Vertex.hpp \
+ C:/mingw64/include/SFML/Graphics/View.hpp \
+ C:/mingw64/include/SFML/System/Clock.hpp \
+ C:/mingw64/include/SFML/System/Export.hpp \
+ C:/mingw64/include/SFML/System/NonCopyable.hpp \
+ C:/mingw64/include/SFML/System/String.hpp \
+ C:/mingw64/include/SFML/System/String.inl \
+ C:/mingw64/include/SFML/System/Time.hpp \
+ C:/mingw64/include/SFML/System/Utf.hpp \
+ C:/mingw64/include/SFML/System/Utf.inl \
+ C:/mingw64/include/SFML/System/Vector2.hpp \
+ C:/mingw64/include/SFML/System/Vector2.inl \
+ C:/mingw64/include/SFML/Window/ContextSettings.hpp \
+ C:/mingw64/include/SFML/Window/Cursor.hpp \
+ C:/mingw64/include/SFML/Window/Export.hpp \
+ C:/mingw64/include/SFML/Window/GlResource.hpp \
+ C:/mingw64/include/SFML/Window/VideoMode.hpp \
+ C:/mingw64/include/SFML/Window/Window.hpp \
+ C:/mingw64/include/SFML/Window/WindowHandle.hpp \
+ C:/mingw64/include/SFML/Window/WindowStyle.hpp
+CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.obj: \
+ ../Tarjetas/Tarjeta.cpp \
+ ../Tarjetas/Tarjeta.h \
+ C:/mingw64/include/SFML/Config.hpp \
+ C:/mingw64/include/SFML/Graphics/BlendMode.hpp \
+ C:/mingw64/include/SFML/Graphics/Color.hpp \
+ C:/mingw64/include/SFML/Graphics/Drawable.hpp \
+ C:/mingw64/include/SFML/Graphics/Export.hpp \
+ C:/mingw64/include/SFML/Graphics/Image.hpp \
+ C:/mingw64/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/mingw64/include/SFML/Graphics/Rect.hpp \
+ C:/mingw64/include/SFML/Graphics/Rect.inl \
+ C:/mingw64/include/SFML/Graphics/RectangleShape.hpp \
+ C:/mingw64/include/SFML/Graphics/RenderStates.hpp \
+ C:/mingw64/include/SFML/Graphics/RenderTarget.hpp \
+ C:/mingw64/include/SFML/Graphics/RenderWindow.hpp \
+ C:/mingw64/include/SFML/Graphics/Shape.hpp \
+ C:/mingw64/include/SFML/Graphics/Sprite.hpp \
+ C:/mingw64/include/SFML/Graphics/Texture.hpp \
+ C:/mingw64/include/SFML/Graphics/Transform.hpp \
+ C:/mingw64/include/SFML/Graphics/Transformable.hpp \
+ C:/mingw64/include/SFML/Graphics/Vertex.hpp \
+ C:/mingw64/include/SFML/Graphics/VertexArray.hpp \
+ C:/mingw64/include/SFML/Graphics/View.hpp \
+ C:/mingw64/include/SFML/System/Clock.hpp \
+ C:/mingw64/include/SFML/System/Export.hpp \
+ C:/mingw64/include/SFML/System/NonCopyable.hpp \
+ C:/mingw64/include/SFML/System/String.hpp \
+ C:/mingw64/include/SFML/System/String.inl \
+ C:/mingw64/include/SFML/System/Time.hpp \
+ C:/mingw64/include/SFML/System/Utf.hpp \
+ C:/mingw64/include/SFML/System/Utf.inl \
+ C:/mingw64/include/SFML/System/Vector2.hpp \
+ C:/mingw64/include/SFML/System/Vector2.inl \
+ C:/mingw64/include/SFML/Window/ContextSettings.hpp \
+ C:/mingw64/include/SFML/Window/Cursor.hpp \
+ C:/mingw64/include/SFML/Window/Export.hpp \
+ C:/mingw64/include/SFML/Window/GlResource.hpp \
+ C:/mingw64/include/SFML/Window/Mouse.hpp \
  C:/mingw64/include/SFML/Window/VideoMode.hpp \
  C:/mingw64/include/SFML/Window/Window.hpp \
  C:/mingw64/include/SFML/Window/WindowHandle.hpp \

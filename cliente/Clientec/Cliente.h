@@ -14,7 +14,7 @@ public:
     WSADATA WSAData;
     SOCKET server;
     SOCKADDR_IN addr;
-    char buffer[1024];
+    char buffer[203097];
 
     Cliente(Lectura_Mensajes *Entrada_lector);
     void Enviar(std::string mensaje);

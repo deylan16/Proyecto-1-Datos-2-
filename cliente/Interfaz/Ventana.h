@@ -22,12 +22,17 @@ public:
     Componentes *componentes = new Componentes();
     std::string entrada = "";
     int contador_botones = 4;
+    int contador_botones2 = 4;
     bool seleccionar_jugador2 = false;
     bool *ptrseleccionar_jugador2 = &seleccionar_jugador2;
+    bool jugando = false;
+    bool *ptrjugando = &jugando;
+    bool carga_ing_reverso = true;
 
     Ventana(Cliente Scliente1, sf::RenderWindow *window);
     void seleccion_jugadores();
     void ventana_principal();
+    void juego();
 
 
 };

@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Lectura_Mensajes.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/cmake-build-debug/CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.obj"
   "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Componentes.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/cmake-build-debug/CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj"
   "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Ventana.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/cmake-build-debug/CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj"
+  "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/PtrTarjetas.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/cmake-build-debug/CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.obj"
+  "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/Tarjeta.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/cmake-build-debug/CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.obj"
   "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/main.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/cmake-build-debug/CMakeFiles/cliente.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

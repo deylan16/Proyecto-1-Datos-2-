@@ -17,7 +17,7 @@ public:
     SOCKADDR_IN serverAddr, clientAddr;
     std::string mensaje_a_enviar = "";
     std::string *ptrmensaje_a_enviar = &mensaje_a_enviar;
-    char buffer[1024];
+    char buffer[203097];
     Server();
     std::string Recibir();
     void Enviar(std::string mensaje);

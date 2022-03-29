@@ -1,8 +1,9 @@
-//
+
 // Created by deyla on 22/3/2022.
 //
 
 #include <iostream>
+#include <fstream>
 #include "Lectura_Mensajes.h"
 
 void Lectura_Mensajes::mensaje_entrante(char *texto) {
@@ -13,6 +14,11 @@ void Lectura_Mensajes::mensaje_entrante(char *texto) {
         numero += texto[1];
         asigna_nombre_jugador(numero,texto);}
 
+    if (primero == "R"){
+
+        da_imagen_reverso();
+
+    }
 
 }
 
@@ -59,5 +65,31 @@ void Lectura_Mensajes::asigna_nombre_jugador(std::string cualjugador,char *texto
         datos->Nombre_jugador2 = nombre;
         *ptrmensaje_a_enviar = "Jugador_2_RECIBIDO";
     }
+
+}
+
+void Lectura_Mensajes::da_imagen_reverso() {
+
+    std::ifstream image("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\server\\Imagenes\\Reverso_Carta.png",std::ios::in| std::ios::binary);
+    if(!image.good()){
+        std::cout<<"ERROR";
+    }
+    std::ofstream binary("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\server\\Imagenes\\binario_imagen.txt",std::ios::out|std::ios::binary);
+    if(!image.good()){
+        std::cout<<"ERROR";}
+    // std::cout<<"ihol"<<std::endl;*/
+    char ch;
+    std::string texto = "";
+    while(!image.eof()){
+
+        ch = image.get();
+        texto += ch;
+        //std::cout<<ch<<std::endl;
+        binary.put(ch);
+    }
+    //std::cout<<texto;
+    image.close();
+
+    *ptrmensaje_a_enviar = texto;
 
 }

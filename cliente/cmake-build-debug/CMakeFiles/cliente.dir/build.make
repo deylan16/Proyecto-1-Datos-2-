@@ -135,13 +135,43 @@ CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Clientec\Lectura_Mensajes.cpp" -o CMakeFiles\cliente.dir\Clientec\Lectura_Mensajes.cpp.s
 
+CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.obj: CMakeFiles/cliente.dir/flags.make
+CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.obj: CMakeFiles/cliente.dir/includes_CXX.rsp
+CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.obj: ../Tarjetas/Tarjeta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cliente.dir\Tarjetas\Tarjeta.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Tarjetas\Tarjeta.cpp"
+
+CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Tarjetas\Tarjeta.cpp" > CMakeFiles\cliente.dir\Tarjetas\Tarjeta.cpp.i
+
+CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Tarjetas\Tarjeta.cpp" -o CMakeFiles\cliente.dir\Tarjetas\Tarjeta.cpp.s
+
+CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.obj: CMakeFiles/cliente.dir/flags.make
+CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.obj: CMakeFiles/cliente.dir/includes_CXX.rsp
+CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.obj: ../Tarjetas/PtrTarjetas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cliente.dir\Tarjetas\PtrTarjetas.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Tarjetas\PtrTarjetas.cpp"
+
+CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Tarjetas\PtrTarjetas.cpp" > CMakeFiles\cliente.dir\Tarjetas\PtrTarjetas.cpp.i
+
+CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Tarjetas\PtrTarjetas.cpp" -o CMakeFiles\cliente.dir\Tarjetas\PtrTarjetas.cpp.s
+
 # Object files for target cliente
 cliente_OBJECTS = \
 "CMakeFiles/cliente.dir/main.cpp.obj" \
 "CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj" \
 "CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj" \
 "CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj" \
-"CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.obj"
+"CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.obj" \
+"CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.obj" \
+"CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.obj"
 
 # External object files for target cliente
 cliente_EXTERNAL_OBJECTS =
@@ -151,6 +181,8 @@ cliente.exe: CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj
 cliente.exe: CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.obj
 cliente.exe: CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj
 cliente.exe: CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.obj
+cliente.exe: CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.obj
+cliente.exe: CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.obj
 cliente.exe: CMakeFiles/cliente.dir/build.make
 cliente.exe: C:/mingw64/lib/libsfml-graphics-d.a
 cliente.exe: C:/mingw64/lib/libsfml-window-d.a
@@ -158,7 +190,7 @@ cliente.exe: C:/mingw64/lib/libsfml-system-d.a
 cliente.exe: CMakeFiles/cliente.dir/linklibs.rsp
 cliente.exe: CMakeFiles/cliente.dir/objects1.rsp
 cliente.exe: CMakeFiles/cliente.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cliente.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cliente.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cliente.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

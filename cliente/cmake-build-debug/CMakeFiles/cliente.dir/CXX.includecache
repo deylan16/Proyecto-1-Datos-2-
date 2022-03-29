@@ -20,6 +20,18 @@ string
 
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Componentes.h
 
+C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Ventana.cpp
+Ventana.h
+C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Ventana.h
+../Tarjetas/Tarjeta.h
+C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/Tarjeta.h
+../Tarjetas/PtrTarjetas.h
+C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/PtrTarjetas.h
+SFML/Graphics.hpp
+-
+fstream
+-
+
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Ventana.h
 SFML/Graphics.hpp
 -
@@ -28,13 +40,15 @@ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/client
 Componentes.h
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Componentes.h
 
-C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/main.cpp
-iostream
+C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/PtrTarjetas.h
+Tarjeta.h
+C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/Tarjeta.h
+mutex
 -
-Clientec/Cliente.h
-C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Cliente.h
-Interfaz/Ventana.h
-C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Ventana.h
+
+C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/Tarjeta.h
+SFML/Graphics/RenderWindow.hpp
+-
 
 C:/mingw64/include/SFML/Config.hpp
 TargetConditionals.h

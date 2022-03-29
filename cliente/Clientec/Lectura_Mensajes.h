@@ -14,11 +14,14 @@ class Lectura_Mensajes {
 public:
     bool *ptrseleccionar_jugador2 = nullptr;
     bool *ptrseleccionado_jugadores= nullptr;
-    void mensaje_entrante(char texto[1024]);
-    std::string char_a_string(char texto[1024]);
+    bool *ptrjugando = nullptr;
+    void mensaje_entrante(char texto[203097]);
+    std::string char_a_string(char texto[203097]);
     void setptrseleccionar_jugador2(bool *Entrada_ptrseleccionar_jugador2);
     bool *getptrseleccionar_jugador2();
     void setptrseleccionado_jugadores(bool *Entrada_ptrseleccionado_jugadores);
+    void setptrjugando(bool *Entrada_ptrjugando);
+    void carga_imagen_reverso(char mensaje[203097]);
 
 };
 

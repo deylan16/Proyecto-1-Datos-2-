@@ -3,25 +3,43 @@
 //
 
 #include "Ventana.h"
+#include "../Tarjetas/Tarjeta.h"
+#include "../Tarjetas/PtrTarjetas.h"
 #include <SFML/Graphics.hpp>
+#include <fstream>
 
 
 void Ventana::ventana_principal() {
 
     // Creamos una textura
-    sf::Texture textura;
+    /*sf::Texture textura;
 
-    // Cargamos la textura desde un archivo
-    if(!textura.loadFromFile("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\Interfaz\\Reverso_Carta.png"))
-    {
-        // Si hay un error salimos
-        std::cout<< "fallo";
+
+    std::ifstream image("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\,std::ios::in| std::ios::binary);
+    if(!image.good()){
+        std::cout<<"ERROR";
     }
+    std::ofstream binary("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\binerio_imagen.txt",std::ios::out|std::ios::binary);
+    if(!image.good()){
+        std::cout<<"ERROR";}
+   // std::cout<<"ihol"<<std::endl;
+    char ch;
+    std::string texto = "";
+    while(!image.eof()){
+
+        ch = image.get();
+        texto += ch;
+        //std::cout<<ch<<std::endl;
+        binary.put(ch);
+    }
+    //std::cout<<texto;
+    image.close();
+    binary.close();*/
 
 
-    sf::Sprite sprite;
-    sprite.setTexture(textura);
-    sprite.move(50, 100);
+
+
+    /*s*/
 
 
 
@@ -186,9 +204,11 @@ void Ventana::ventana_principal() {
             }
         }
         ptrwindow->clear();
-        ptrwindow->draw(sprite);
+       //
         if(seleccionado_jugadores)
             seleccion_jugadores();
+        if(jugando)
+            juego();
 
         ptrwindow->display();
 
@@ -236,5 +256,58 @@ void Ventana::seleccion_jugadores() {
 
 
     }
+
+void Ventana::juego() {
+    PtrTarjetas *ptr_Tarjetas = PtrTarjetas::GetInstance("Informacion");
+    if(carga_ing_reverso){
+        Scliente->Enviar("R");
+        carga_ing_reverso = false;
+
+        for (int i = 0; i <= 8; i = i + 1){
+            for (int j = 0; j <= 8; j = j + 1){
+                Tarjeta *tarjeta1 = new Tarjeta();
+                tarjeta1->setPtrwindow(ptrwindow);
+                std::string f_C= std::to_string(i) +":"+std::to_string(j);
+                std::cout<<f_C;
+                tarjeta1->fila_columna = f_C;
+                ptr_Tarjetas->set_ptrtarjeta(i,j,tarjeta1);
+
+
+
+            }
+
+        }
+    }
+
+
+    int mousex =sf::Mouse::getPosition(*ptrwindow).x;
+    int mousey = sf::Mouse::getPosition( *ptrwindow).y;
+    int ubicaionx = 0;
+    int ubicaiony = -110;
+
+
+
+
+    for (int i = 0; i <= 8; i = i + 1){
+        ubicaionx = 0;
+        ubicaiony += 110;
+        for (int j = 0; j <= 8; j = j + 1){
+            ptr_Tarjetas->ptr_tarjetas2[i][j]->setposicion_mouse(mousex,mousey);
+            if(ptr_Tarjetas->ptr_tarjetas2[i][j]->creaBoton(ubicaionx, ubicaiony, 70, 100)){
+                //contador_botones2 -= 1;//sintaxis porque sino lo envia 4 veces
+                std::cout<<ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna;
+                /*if (contador_botones == 0){
+
+                    //seleccionar_jugador2 = true;
+                    contador_botones2 = 4;//sintaxis porque sino lo envia 4 veces
+                }*/
+            }
+            ubicaionx += 100;
+    }
+    }
+
+
+
+}
 
 

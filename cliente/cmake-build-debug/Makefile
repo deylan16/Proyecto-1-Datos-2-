@@ -224,6 +224,54 @@ Interfaz/Ventana.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Interfaz/Ventana.cpp.s
 .PHONY : Interfaz/Ventana.cpp.s
 
+Tarjetas/PtrTarjetas.obj: Tarjetas/PtrTarjetas.cpp.obj
+.PHONY : Tarjetas/PtrTarjetas.obj
+
+# target to build an object file
+Tarjetas/PtrTarjetas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.obj
+.PHONY : Tarjetas/PtrTarjetas.cpp.obj
+
+Tarjetas/PtrTarjetas.i: Tarjetas/PtrTarjetas.cpp.i
+.PHONY : Tarjetas/PtrTarjetas.i
+
+# target to preprocess a source file
+Tarjetas/PtrTarjetas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.i
+.PHONY : Tarjetas/PtrTarjetas.cpp.i
+
+Tarjetas/PtrTarjetas.s: Tarjetas/PtrTarjetas.cpp.s
+.PHONY : Tarjetas/PtrTarjetas.s
+
+# target to generate assembly for a file
+Tarjetas/PtrTarjetas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.s
+.PHONY : Tarjetas/PtrTarjetas.cpp.s
+
+Tarjetas/Tarjeta.obj: Tarjetas/Tarjeta.cpp.obj
+.PHONY : Tarjetas/Tarjeta.obj
+
+# target to build an object file
+Tarjetas/Tarjeta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.obj
+.PHONY : Tarjetas/Tarjeta.cpp.obj
+
+Tarjetas/Tarjeta.i: Tarjetas/Tarjeta.cpp.i
+.PHONY : Tarjetas/Tarjeta.i
+
+# target to preprocess a source file
+Tarjetas/Tarjeta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.i
+.PHONY : Tarjetas/Tarjeta.cpp.i
+
+Tarjetas/Tarjeta.s: Tarjetas/Tarjeta.cpp.s
+.PHONY : Tarjetas/Tarjeta.s
+
+# target to generate assembly for a file
+Tarjetas/Tarjeta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cliente.dir\build.make CMakeFiles/cliente.dir/Tarjetas/Tarjeta.cpp.s
+.PHONY : Tarjetas/Tarjeta.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -269,6 +317,12 @@ help:
 	@echo ... Interfaz/Ventana.obj
 	@echo ... Interfaz/Ventana.i
 	@echo ... Interfaz/Ventana.s
+	@echo ... Tarjetas/PtrTarjetas.obj
+	@echo ... Tarjetas/PtrTarjetas.i
+	@echo ... Tarjetas/PtrTarjetas.s
+	@echo ... Tarjetas/Tarjeta.obj
+	@echo ... Tarjetas/Tarjeta.i
+	@echo ... Tarjetas/Tarjeta.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

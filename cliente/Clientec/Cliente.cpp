@@ -38,9 +38,9 @@ void Cliente::Enviar(std::string mensaje) {
 void Cliente::Recibir() {
     recv(server, buffer, sizeof(buffer), 0);
     //cout << "El servidor dice: " << buffer << endl;
-    std::cout<<"cliente"<<lector->getptrseleccionar_jugador2()<<"\n";
+    //std::cout<<"cliente"<<lector->getptrseleccionar_jugador2()<<"\n";
     lector->mensaje_entrante(buffer);
-    std::cout<<"cliente2"<<lector->getptrseleccionar_jugador2()<<"\n";
+    //std::cout<<"cliente2"<<lector->getptrseleccionar_jugador2()<<"\n";
     memset(buffer, 0, sizeof(buffer));
 }
 

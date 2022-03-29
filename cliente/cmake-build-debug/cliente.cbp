@@ -106,6 +106,18 @@
 		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Ventana.h">
 			<Option target="cliente"/>
 		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/PtrTarjetas.cpp">
+			<Option target="cliente"/>
+		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/PtrTarjetas.h">
+			<Option target="cliente"/>
+		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/Tarjeta.cpp">
+			<Option target="cliente"/>
+		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/Tarjeta.h">
+			<Option target="cliente"/>
+		</Unit>
 		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/main.cpp">
 			<Option target="cliente"/>
 		</Unit>

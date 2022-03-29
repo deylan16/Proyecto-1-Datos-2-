@@ -50,6 +50,7 @@
       <recent name="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Interfaz" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Tarjetas" />
       <recent name="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\cliente\Interfaz" />
     </key>
   </component>
@@ -79,11 +80,22 @@
       <option name="presentableId" value="Default" />
       <updated>1647465596275</updated>
       <workItem from="1647465599444" duration="10754000" />
-      <workItem from="1647900948042" duration="36213000" />
+      <workItem from="1647900948042" duration="58159000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Clientec/Cliente.h</url>
+          <line>20</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

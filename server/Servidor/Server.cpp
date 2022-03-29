@@ -40,11 +40,14 @@ std::string Server::Recibir() {
 }
 
 void Server::Enviar(std::string mensaje) {
-    //std::cout<<"Escribe el mensaje a enviar: ";
+
+    std::cout<<mensaje.length();
     for (int i = 0; i <= mensaje.length(); i = i + 1) {
+
         this->buffer[i] = mensaje[i];
 
     }
+
     send(client, buffer, sizeof(buffer), 0);
     memset(buffer, 0, sizeof(buffer));
     //std::cout << "Mensaje enviado!" <<  std::endl;

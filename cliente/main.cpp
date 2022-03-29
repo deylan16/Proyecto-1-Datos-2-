@@ -13,6 +13,7 @@ int main() {
     Ventana *ventana = new Ventana(*Cliente,ptrwindow);
     lector->setptrseleccionar_jugador2( ventana->ptrseleccionar_jugador2);
     lector->setptrseleccionado_jugadores(ventana->ptrseleccionado_jugadores);
+    lector->setptrjugando(ventana->ptrjugando);
     //lector->setventana(*ventana);
     ventana->ventana_principal();
 

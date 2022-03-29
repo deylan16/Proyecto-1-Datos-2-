@@ -1,17 +1,27 @@
 #include <iostream>
+#include <fstream>
 #include "Servidor/Server.h"
 #include "Servidor/Datos_juego.h"
 
 int main() {
-    Server *Servidor = new Server();
+
+
+    std::ifstream archivo("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\server\\Tarjetas\\informcaion_tarjetas.txt");
+    if(!archivo.good()){
+        std::cout<<"ERROR";
+    }
+    std::string linea;
+    while (getline(archivo, linea)) {
+        // Lo vamos imprimiendo
+        std::cout << "Una linea: ";
+        std::cout << linea[0] << std::endl;
+    }
+
+    /*Server *Servidor = new Server();
     while(true)
     {
         Servidor->Recibir();
         //Servidor->Enviar();
-    }
-    /*Datos_juego *datos = Datos_juego::GetInstance("Informacion");
-    std::cout<<datos->hola;
-    Datos_juego *datos2 = Datos_juego::GetInstance("Informacion2");
-    datos->hola = false;
-    std::cout<<datos2->hola;*/
+    }*/
+
 }
