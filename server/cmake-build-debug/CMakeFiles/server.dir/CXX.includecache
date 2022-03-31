@@ -14,6 +14,12 @@ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server
 Datos_juego.h
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Datos_juego.h
 
+C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Server.cpp
+Server.h
+C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Server.h
+iostream
+-
+
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Server.h
 winsock2.h
 -
@@ -21,14 +27,4 @@ iostream
 -
 Lectura_Mensajes.h
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Lectura_Mensajes.h
-
-C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/main.cpp
-iostream
--
-fstream
--
-Servidor/Server.h
-C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Server.h
-Servidor/Datos_juego.h
-C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Datos_juego.h
 

@@ -98,6 +98,18 @@
 		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Server.h">
 			<Option target="server"/>
 		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_disco.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_disco.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_memoria.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_memoria.h">
+			<Option target="server"/>
+		</Unit>
 		<Unit filename="C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/main.cpp">
 			<Option target="server"/>
 		</Unit>

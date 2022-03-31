@@ -263,12 +263,12 @@ void Ventana::juego() {
         Scliente->Enviar("R");
         carga_ing_reverso = false;
 
-        for (int i = 0; i <= 8; i = i + 1){
-            for (int j = 0; j <= 8; j = j + 1){
+        for (int i = 0; i < 8; i = i + 1){
+            for (int j = 0; j < 8; j = j + 1){
                 Tarjeta *tarjeta1 = new Tarjeta();
                 tarjeta1->setPtrwindow(ptrwindow);
                 std::string f_C= std::to_string(i) +":"+std::to_string(j);
-                std::cout<<f_C;
+
                 tarjeta1->fila_columna = f_C;
                 ptr_Tarjetas->set_ptrtarjeta(i,j,tarjeta1);
 
@@ -288,19 +288,17 @@ void Ventana::juego() {
 
 
 
-    for (int i = 0; i <= 8; i = i + 1){
+    for (int i = 0; i < 8; i = i + 1){
         ubicaionx = 0;
         ubicaiony += 110;
-        for (int j = 0; j <= 8; j = j + 1){
+        for (int j = 0; j < 8; j = j + 1){
             ptr_Tarjetas->ptr_tarjetas2[i][j]->setposicion_mouse(mousex,mousey);
+            //std::cout<<ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna;
             if(ptr_Tarjetas->ptr_tarjetas2[i][j]->creaBoton(ubicaionx, ubicaiony, 70, 100)){
                 //contador_botones2 -= 1;//sintaxis porque sino lo envia 4 veces
+                Scliente->Enviar(ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna);
                 std::cout<<ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna;
-                /*if (contador_botones == 0){
 
-                    //seleccionar_jugador2 = true;
-                    contador_botones2 = 4;//sintaxis porque sino lo envia 4 veces
-                }*/
             }
             ubicaionx += 100;
     }

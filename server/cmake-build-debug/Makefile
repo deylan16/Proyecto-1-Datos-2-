@@ -200,6 +200,54 @@ Servidor/Server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Servidor/Server.cpp.s
 .PHONY : Servidor/Server.cpp.s
 
+Tarjetas/Matriz_disco.obj: Tarjetas/Matriz_disco.cpp.obj
+.PHONY : Tarjetas/Matriz_disco.obj
+
+# target to build an object file
+Tarjetas/Matriz_disco.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj
+.PHONY : Tarjetas/Matriz_disco.cpp.obj
+
+Tarjetas/Matriz_disco.i: Tarjetas/Matriz_disco.cpp.i
+.PHONY : Tarjetas/Matriz_disco.i
+
+# target to preprocess a source file
+Tarjetas/Matriz_disco.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.i
+.PHONY : Tarjetas/Matriz_disco.cpp.i
+
+Tarjetas/Matriz_disco.s: Tarjetas/Matriz_disco.cpp.s
+.PHONY : Tarjetas/Matriz_disco.s
+
+# target to generate assembly for a file
+Tarjetas/Matriz_disco.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.s
+.PHONY : Tarjetas/Matriz_disco.cpp.s
+
+Tarjetas/Matriz_memoria.obj: Tarjetas/Matriz_memoria.cpp.obj
+.PHONY : Tarjetas/Matriz_memoria.obj
+
+# target to build an object file
+Tarjetas/Matriz_memoria.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj
+.PHONY : Tarjetas/Matriz_memoria.cpp.obj
+
+Tarjetas/Matriz_memoria.i: Tarjetas/Matriz_memoria.cpp.i
+.PHONY : Tarjetas/Matriz_memoria.i
+
+# target to preprocess a source file
+Tarjetas/Matriz_memoria.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.i
+.PHONY : Tarjetas/Matriz_memoria.cpp.i
+
+Tarjetas/Matriz_memoria.s: Tarjetas/Matriz_memoria.cpp.s
+.PHONY : Tarjetas/Matriz_memoria.s
+
+# target to generate assembly for a file
+Tarjetas/Matriz_memoria.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.s
+.PHONY : Tarjetas/Matriz_memoria.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -242,6 +290,12 @@ help:
 	@echo ... Servidor/Server.obj
 	@echo ... Servidor/Server.i
 	@echo ... Servidor/Server.s
+	@echo ... Tarjetas/Matriz_disco.obj
+	@echo ... Tarjetas/Matriz_disco.i
+	@echo ... Tarjetas/Matriz_disco.s
+	@echo ... Tarjetas/Matriz_memoria.obj
+	@echo ... Tarjetas/Matriz_memoria.i
+	@echo ... Tarjetas/Matriz_memoria.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Datos_juego.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/cmake-build-debug/CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj"
   "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Lectura_Mensajes.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/cmake-build-debug/CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj"
   "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Server.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/cmake-build-debug/CMakeFiles/server.dir/Servidor/Server.cpp.obj"
+  "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_disco.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/cmake-build-debug/CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj"
+  "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_memoria.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/cmake-build-debug/CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj"
   "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/main.cpp" "C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/cmake-build-debug/CMakeFiles/server.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

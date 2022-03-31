@@ -117,12 +117,40 @@ CMakeFiles/server.dir/Servidor/Datos_juego.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Servidor/Datos_juego.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Datos_juego.cpp" -o CMakeFiles\server.dir\Servidor\Datos_juego.cpp.s
 
+CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj: ../Tarjetas/Matriz_memoria.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\Tarjetas\Matriz_memoria.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Matriz_memoria.cpp"
+
+CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Matriz_memoria.cpp" > CMakeFiles\server.dir\Tarjetas\Matriz_memoria.cpp.i
+
+CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Matriz_memoria.cpp" -o CMakeFiles\server.dir\Tarjetas\Matriz_memoria.cpp.s
+
+CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj: ../Tarjetas/Matriz_disco.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\Tarjetas\Matriz_disco.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Matriz_disco.cpp"
+
+CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Matriz_disco.cpp" > CMakeFiles\server.dir\Tarjetas\Matriz_disco.cpp.i
+
+CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Matriz_disco.cpp" -o CMakeFiles\server.dir\Tarjetas\Matriz_disco.cpp.s
+
 # Object files for target server
 server_OBJECTS = \
 "CMakeFiles/server.dir/main.cpp.obj" \
 "CMakeFiles/server.dir/Servidor/Server.cpp.obj" \
 "CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj" \
-"CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj"
+"CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj" \
+"CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj" \
+"CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj"
 
 # External object files for target server
 server_EXTERNAL_OBJECTS =
@@ -131,11 +159,13 @@ server.exe: CMakeFiles/server.dir/main.cpp.obj
 server.exe: CMakeFiles/server.dir/Servidor/Server.cpp.obj
 server.exe: CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj
 server.exe: CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj
+server.exe: CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj
+server.exe: CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj
 server.exe: CMakeFiles/server.dir/build.make
 server.exe: CMakeFiles/server.dir/linklibs.rsp
 server.exe: CMakeFiles/server.dir/objects1.rsp
 server.exe: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable server.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable server.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\server.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

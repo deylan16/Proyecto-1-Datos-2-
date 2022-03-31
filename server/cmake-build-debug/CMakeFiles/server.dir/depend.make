@@ -13,8 +13,12 @@ CMakeFiles/server.dir/Servidor/Server.cpp.obj: \
  ../Servidor/Lectura_Mensajes.h \
  ../Servidor/Server.cpp \
  ../Servidor/Server.h
+CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj: \
+ ../Tarjetas/Matriz_memoria.cpp \
+ ../Tarjetas/Matriz_memoria.h
 CMakeFiles/server.dir/main.cpp.obj: \
  ../Servidor/Datos_juego.h \
  ../Servidor/Lectura_Mensajes.h \
  ../Servidor/Server.h \
+ ../Tarjetas/Matriz_memoria.h \
  ../main.cpp

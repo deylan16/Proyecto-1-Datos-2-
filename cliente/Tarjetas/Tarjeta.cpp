@@ -16,6 +16,7 @@ void Tarjeta::setPtrwindow(sf::RenderWindow *window) {
 bool Tarjeta::creaBoton(int posicionx, int posiciony, int ancho, int alto) {
     //sf::RectangleShape BotonAceptar(sf::Vector2f(ancho,alto));BotonAceptar.setPosition(posicionx,posiciony);BotonAceptar.setFillColor(sf::Color::Blue);ptrwindow->draw(BotonAceptar);
     sf::Texture textura;
+
     if(!textura.loadFromFile("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\Archivos_texto\\datos_reverso.txt"))
     {
         // Si hay un error salimos

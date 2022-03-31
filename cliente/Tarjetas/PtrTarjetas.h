@@ -34,7 +34,7 @@ public:
     }
 
 
-    Tarjeta *ptr_tarjetas2[8][8];
+    Tarjeta *ptr_tarjetas2[7][7];
     void set_ptrtarjeta(int i,int j,Tarjeta *tarjeta);
 
 };
