@@ -7,9 +7,11 @@
 #include <winsock2.h>
 #include <iostream>
 #include "Lectura_Mensajes.h"
+#include "../Tarjetas/Matriz_disco.h"
 
 class Server {
 public:
+    Matriz_disco *matriz_disco = Matriz_disco::GetInstance("Informacion");
     Datos_juego *datos = Datos_juego::GetInstance("Informacion");
     WSADATA WSAData;
     SOCKET server, client;

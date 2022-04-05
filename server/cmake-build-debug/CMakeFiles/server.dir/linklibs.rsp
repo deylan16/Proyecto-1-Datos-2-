@@ -1,1 +1,1 @@
- -lws2_32 -Wl,-Bstatic -lws2_32 -Wl,-Bdynamic -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ -lws2_32 -Wl,-Bstatic -lws2_32 -Wl,-Bdynamic C:/mingw64/lib/libsfml-graphics-d.a -static C:/mingw64/lib/libsfml-window-d.a C:/mingw64/lib/libsfml-system-d.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -66,6 +66,7 @@ include CMakeFiles/server.dir/progress.make
 include CMakeFiles/server.dir/flags.make
 
 CMakeFiles/server.dir/main.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/main.cpp.obj: CMakeFiles/server.dir/includes_CXX.rsp
 CMakeFiles/server.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/main.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\main.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\main.cpp"
@@ -79,6 +80,7 @@ CMakeFiles/server.dir/main.cpp.s: cmake_force
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\main.cpp" -o CMakeFiles\server.dir\main.cpp.s
 
 CMakeFiles/server.dir/Servidor/Server.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/Servidor/Server.cpp.obj: CMakeFiles/server.dir/includes_CXX.rsp
 CMakeFiles/server.dir/Servidor/Server.cpp.obj: ../Servidor/Server.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server.dir/Servidor/Server.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\Servidor\Server.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Server.cpp"
@@ -92,6 +94,7 @@ CMakeFiles/server.dir/Servidor/Server.cpp.s: cmake_force
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Server.cpp" -o CMakeFiles\server.dir\Servidor\Server.cpp.s
 
 CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj: CMakeFiles/server.dir/includes_CXX.rsp
 CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj: ../Servidor/Lectura_Mensajes.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\Servidor\Lectura_Mensajes.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Lectura_Mensajes.cpp"
@@ -105,6 +108,7 @@ CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.s: cmake_force
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Lectura_Mensajes.cpp" -o CMakeFiles\server.dir\Servidor\Lectura_Mensajes.cpp.s
 
 CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj: CMakeFiles/server.dir/includes_CXX.rsp
 CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj: ../Servidor/Datos_juego.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\Servidor\Datos_juego.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Datos_juego.cpp"
@@ -118,6 +122,7 @@ CMakeFiles/server.dir/Servidor/Datos_juego.cpp.s: cmake_force
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Datos_juego.cpp" -o CMakeFiles\server.dir\Servidor\Datos_juego.cpp.s
 
 CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj: CMakeFiles/server.dir/includes_CXX.rsp
 CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj: ../Tarjetas/Matriz_memoria.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\Tarjetas\Matriz_memoria.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Matriz_memoria.cpp"
@@ -131,6 +136,7 @@ CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.s: cmake_force
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Matriz_memoria.cpp" -o CMakeFiles\server.dir\Tarjetas\Matriz_memoria.cpp.s
 
 CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj: CMakeFiles/server.dir/includes_CXX.rsp
 CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj: ../Tarjetas/Matriz_disco.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\Tarjetas\Matriz_disco.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Matriz_disco.cpp"
@@ -143,6 +149,34 @@ CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Matriz_disco.cpp" -o CMakeFiles\server.dir\Tarjetas\Matriz_disco.cpp.s
 
+CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.obj: CMakeFiles/server.dir/includes_CXX.rsp
+CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.obj: ../Tarjetas/Tarjetas_Cargadas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\Tarjetas\Tarjetas_Cargadas.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Tarjetas_Cargadas.cpp"
+
+CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Tarjetas_Cargadas.cpp" > CMakeFiles\server.dir\Tarjetas\Tarjetas_Cargadas.cpp.i
+
+CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Tarjetas\Tarjetas_Cargadas.cpp" -o CMakeFiles\server.dir\Tarjetas\Tarjetas_Cargadas.cpp.s
+
+CMakeFiles/server.dir/Servidor/Logica_juego.cpp.obj: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/Servidor/Logica_juego.cpp.obj: CMakeFiles/server.dir/includes_CXX.rsp
+CMakeFiles/server.dir/Servidor/Logica_juego.cpp.obj: ../Servidor/Logica_juego.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/Servidor/Logica_juego.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\server.dir\Servidor\Logica_juego.cpp.obj -c "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Logica_juego.cpp"
+
+CMakeFiles/server.dir/Servidor/Logica_juego.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/Servidor/Logica_juego.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Logica_juego.cpp" > CMakeFiles\server.dir\Servidor\Logica_juego.cpp.i
+
+CMakeFiles/server.dir/Servidor/Logica_juego.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Servidor/Logica_juego.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\Servidor\Logica_juego.cpp" -o CMakeFiles\server.dir\Servidor\Logica_juego.cpp.s
+
 # Object files for target server
 server_OBJECTS = \
 "CMakeFiles/server.dir/main.cpp.obj" \
@@ -150,7 +184,9 @@ server_OBJECTS = \
 "CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj" \
 "CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj" \
 "CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj" \
-"CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj"
+"CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj" \
+"CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.obj" \
+"CMakeFiles/server.dir/Servidor/Logica_juego.cpp.obj"
 
 # External object files for target server
 server_EXTERNAL_OBJECTS =
@@ -161,11 +197,16 @@ server.exe: CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj
 server.exe: CMakeFiles/server.dir/Servidor/Datos_juego.cpp.obj
 server.exe: CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.obj
 server.exe: CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj
+server.exe: CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.obj
+server.exe: CMakeFiles/server.dir/Servidor/Logica_juego.cpp.obj
 server.exe: CMakeFiles/server.dir/build.make
+server.exe: C:/mingw64/lib/libsfml-graphics-d.a
+server.exe: C:/mingw64/lib/libsfml-window-d.a
+server.exe: C:/mingw64/lib/libsfml-system-d.a
 server.exe: CMakeFiles/server.dir/linklibs.rsp
 server.exe: CMakeFiles/server.dir/objects1.rsp
 server.exe: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable server.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\deyla\OneDrive\Escritorio\Proyecto 1 Datos 2\Proyecto-1-Datos-2-\server\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable server.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\server.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

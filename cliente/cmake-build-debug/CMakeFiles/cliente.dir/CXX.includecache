@@ -17,6 +17,8 @@ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/client
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Clientec/Lectura_Mensajes.h
 string
 -
+../Tarjetas/PtrTarjetas.h
+C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/PtrTarjetas.h
 
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Componentes.h
 
@@ -30,6 +32,8 @@ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/client
 SFML/Graphics.hpp
 -
 fstream
+-
+thread
 -
 
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Interfaz/Ventana.h
@@ -48,6 +52,8 @@ mutex
 
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/cliente/Tarjetas/Tarjeta.h
 SFML/Graphics/RenderWindow.hpp
+-
+SFML/Graphics/Sprite.hpp
 -
 
 C:/mingw64/include/SFML/Config.hpp

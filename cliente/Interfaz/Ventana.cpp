@@ -1,4 +1,4 @@
-//
+
 // Created by deyla on 16/3/2022.
 //
 
@@ -7,45 +7,28 @@
 #include "../Tarjetas/PtrTarjetas.h"
 #include <SFML/Graphics.hpp>
 #include <fstream>
+#include <thread>
 
 
 void Ventana::ventana_principal() {
 
-    // Creamos una textura
-    /*sf::Texture textura;
-
-
-    std::ifstream image("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\,std::ios::in| std::ios::binary);
-    if(!image.good()){
-        std::cout<<"ERROR";
-    }
-    std::ofstream binary("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\binerio_imagen.txt",std::ios::out|std::ios::binary);
-    if(!image.good()){
-        std::cout<<"ERROR";}
-   // std::cout<<"ihol"<<std::endl;
-    char ch;
-    std::string texto = "";
-    while(!image.eof()){
-
-        ch = image.get();
-        texto += ch;
-        //std::cout<<ch<<std::endl;
-        binary.put(ch);
-    }
-    //std::cout<<texto;
-    image.close();
-    binary.close();*/
-
-
-
-
-    /*s*/
-
-
-
-
     while (ptrwindow->isOpen())
     {
+        if(*ptr_igual){
+
+            if(contador_espera == 0){
+                std::cout<<"llame"<<std::endl;
+                //std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+                Scliente->Enviar("Iguales");
+                *ptr_igual = false;
+                contador_espera= 10;
+            }
+            else{
+                contador_espera -= 1;
+            }
+
+        }
+
 
         //componentes->setWindow(window);
         int mousex =sf::Mouse::getPosition(*ptrwindow).x;
@@ -259,8 +242,10 @@ void Ventana::seleccion_jugadores() {
 
 void Ventana::juego() {
     PtrTarjetas *ptr_Tarjetas = PtrTarjetas::GetInstance("Informacion");
+
     if(carga_ing_reverso){
         Scliente->Enviar("R");
+        Scliente->Enviar("E");
         carga_ing_reverso = false;
 
         for (int i = 0; i < 8; i = i + 1){
@@ -295,14 +280,16 @@ void Ventana::juego() {
             ptr_Tarjetas->ptr_tarjetas2[i][j]->setposicion_mouse(mousex,mousey);
             //std::cout<<ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna;
             if(ptr_Tarjetas->ptr_tarjetas2[i][j]->creaBoton(ubicaionx, ubicaiony, 70, 100)){
-                //contador_botones2 -= 1;//sintaxis porque sino lo envia 4 veces
                 Scliente->Enviar(ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna);
-                std::cout<<ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna;
+                //std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+                contador_tarjetas +=1;
+
 
             }
             ubicaionx += 100;
     }
     }
+
 
 
 

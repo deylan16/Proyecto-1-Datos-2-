@@ -80,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647465596275</updated>
       <workItem from="1647465599444" duration="10754000" />
-      <workItem from="1647900948042" duration="62398000" />
+      <workItem from="1647900948042" duration="95450000" />
     </task>
     <servers />
   </component>
@@ -91,9 +91,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Clientec/Cliente.h</url>
-          <line>20</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/Clientec/Lectura_Mensajes.cpp</url>
+          <line>105</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

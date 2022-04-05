@@ -17,14 +17,15 @@ bool Tarjeta::creaBoton(int posicionx, int posiciony, int ancho, int alto) {
     //sf::RectangleShape BotonAceptar(sf::Vector2f(ancho,alto));BotonAceptar.setPosition(posicionx,posiciony);BotonAceptar.setFillColor(sf::Color::Blue);ptrwindow->draw(BotonAceptar);
     sf::Texture textura;
 
-    if(!textura.loadFromFile("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\Archivos_texto\\datos_reverso.txt"))
+    if(!textura.loadFromFile(ruta))
     {
         // Si hay un error salimos
         std::cout<< "fallo";
     }
-    sf::Sprite sprite;
+
     sprite.setTexture(textura);
-    sprite.move(posicionx, posiciony);
+    sprite.setPosition(posicionx,posiciony);
+    //sprite.move(posicionx, posiciony);
     ptrwindow->draw(sprite);
     if (posicionx<this->mousex && this->mousex<(posicionx+ancho) && this->mousey<(posiciony+alto) && this->mousey>posiciony){
 

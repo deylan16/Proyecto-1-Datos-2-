@@ -34,8 +34,10 @@ public:
     }
 
 
-    Tarjeta *ptr_tarjetas2[7][7];
+    Tarjeta *ptr_tarjetas2[8][8];
+
     void set_ptrtarjeta(int i,int j,Tarjeta *tarjeta);
+    void cambieruta(std::string posicion,std::string numerocarta);
 
 };
 

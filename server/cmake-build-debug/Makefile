@@ -176,6 +176,30 @@ Servidor/Lectura_Mensajes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.s
 .PHONY : Servidor/Lectura_Mensajes.cpp.s
 
+Servidor/Logica_juego.obj: Servidor/Logica_juego.cpp.obj
+.PHONY : Servidor/Logica_juego.obj
+
+# target to build an object file
+Servidor/Logica_juego.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Servidor/Logica_juego.cpp.obj
+.PHONY : Servidor/Logica_juego.cpp.obj
+
+Servidor/Logica_juego.i: Servidor/Logica_juego.cpp.i
+.PHONY : Servidor/Logica_juego.i
+
+# target to preprocess a source file
+Servidor/Logica_juego.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Servidor/Logica_juego.cpp.i
+.PHONY : Servidor/Logica_juego.cpp.i
+
+Servidor/Logica_juego.s: Servidor/Logica_juego.cpp.s
+.PHONY : Servidor/Logica_juego.s
+
+# target to generate assembly for a file
+Servidor/Logica_juego.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Servidor/Logica_juego.cpp.s
+.PHONY : Servidor/Logica_juego.cpp.s
+
 Servidor/Server.obj: Servidor/Server.cpp.obj
 .PHONY : Servidor/Server.obj
 
@@ -248,6 +272,30 @@ Tarjetas/Matriz_memoria.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Tarjetas/Matriz_memoria.cpp.s
 .PHONY : Tarjetas/Matriz_memoria.cpp.s
 
+Tarjetas/Tarjetas_Cargadas.obj: Tarjetas/Tarjetas_Cargadas.cpp.obj
+.PHONY : Tarjetas/Tarjetas_Cargadas.obj
+
+# target to build an object file
+Tarjetas/Tarjetas_Cargadas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.obj
+.PHONY : Tarjetas/Tarjetas_Cargadas.cpp.obj
+
+Tarjetas/Tarjetas_Cargadas.i: Tarjetas/Tarjetas_Cargadas.cpp.i
+.PHONY : Tarjetas/Tarjetas_Cargadas.i
+
+# target to preprocess a source file
+Tarjetas/Tarjetas_Cargadas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.i
+.PHONY : Tarjetas/Tarjetas_Cargadas.cpp.i
+
+Tarjetas/Tarjetas_Cargadas.s: Tarjetas/Tarjetas_Cargadas.cpp.s
+.PHONY : Tarjetas/Tarjetas_Cargadas.s
+
+# target to generate assembly for a file
+Tarjetas/Tarjetas_Cargadas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\server.dir\build.make CMakeFiles/server.dir/Tarjetas/Tarjetas_Cargadas.cpp.s
+.PHONY : Tarjetas/Tarjetas_Cargadas.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -287,6 +335,9 @@ help:
 	@echo ... Servidor/Lectura_Mensajes.obj
 	@echo ... Servidor/Lectura_Mensajes.i
 	@echo ... Servidor/Lectura_Mensajes.s
+	@echo ... Servidor/Logica_juego.obj
+	@echo ... Servidor/Logica_juego.i
+	@echo ... Servidor/Logica_juego.s
 	@echo ... Servidor/Server.obj
 	@echo ... Servidor/Server.i
 	@echo ... Servidor/Server.s
@@ -296,6 +347,9 @@ help:
 	@echo ... Tarjetas/Matriz_memoria.obj
 	@echo ... Tarjetas/Matriz_memoria.i
 	@echo ... Tarjetas/Matriz_memoria.s
+	@echo ... Tarjetas/Tarjetas_Cargadas.obj
+	@echo ... Tarjetas/Tarjetas_Cargadas.i
+	@echo ... Tarjetas/Tarjetas_Cargadas.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

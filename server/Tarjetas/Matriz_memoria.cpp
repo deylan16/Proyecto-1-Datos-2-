@@ -113,6 +113,7 @@ std::string Matriz_memoria::demetarjeta(std::string posicion) {
 }
 
 void Matriz_memoria::cambiaestadotarjeta(std::string posicion) {
+    std::cout<<"*****************"<<posicion<<std::endl;
     std::ifstream archivo;
     archivo.open("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\server\\Tarjetas\\informcaion_tarjetas.txt",std::ios::in);
     if(archivo.fail()){
@@ -124,33 +125,7 @@ void Matriz_memoria::cambiaestadotarjeta(std::string posicion) {
     while (getline(archivo, texto)) {
 
         todotexto += texto;
-        todotexto += "$";
-
-        // Lo vamos imprimiendo
-        /*int columna = 0;
-        for(int i= 0 ;i <= archivo.get();i++){
-            //std::cout << texto[i]<< std::endl;
-            std::string letra;
-            letra += texto[i];
-            std::string posicion2 = std::to_string(fila) + ":" +std::to_string(columna);
-            //std::cout << texto[i]<< std::endl;
-            if(posicion == posicion2){
-                std::cout<<texto[i]<< std::endl;
-                const char *hola= "t";
-                texto[i] = *hola;
-                break;
-
-            }
-            if (letra == "&"){
-
-
-                //
-                columna += 1;
-            }
-
-        }
-
-        fila += 1;*/
+        todotexto += "\n";
     }
     archivo.close();
     int fila = 0;
@@ -174,10 +149,10 @@ void Matriz_memoria::cambiaestadotarjeta(std::string posicion) {
         else{
             textofinal += letra;
         }
-        if(letra == "$"){
+        if(columna == 8){
             fila += 1;
             columna = 0;
-            textofinal += "\n";
+            //textofinal += "\n";
             continue;
             std::cout<<fila<<std::endl;
         }

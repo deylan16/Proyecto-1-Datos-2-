@@ -36,6 +36,8 @@ public:
     //******************************
     std::string Nombre_jugador1;
     std::string Nombre_jugador2;
+    int Nombre_jugador1;
+    int puntaje_jugador2;
 };
 
 

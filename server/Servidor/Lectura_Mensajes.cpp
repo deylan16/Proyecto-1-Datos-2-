@@ -16,7 +16,37 @@ void Lectura_Mensajes::mensaje_entrante(char *texto) {
 
     if (primero == "R"){
 
-        da_imagen_reverso();
+        da_imagen_reverso("R");
+
+    }
+    if (primero == "E"){
+
+        da_imagen_reverso("E");
+
+    }
+    if (primero == "I"){
+        std::string iguales = logica->son_iguales();
+        if(iguales == "SI SON"){
+            *ptrmensaje_a_enviar =  "SiSon"+logica->posicion1+logica->posicion2;
+            logica->posicion1 = "";
+            logica->posicion2 = "";
+        }
+        else{
+            *ptrmensaje_a_enviar =  "NoSon"+logica->posicion1+logica->posicion2;
+            logica->posicion1 = "";
+            logica->posicion2 = "";
+
+        }
+
+    }
+    primero = texto[1];
+    if(primero == ":"){
+        std::string posicion;
+        posicion = texto;
+        std::cout<<posicion<<std::endl;
+        *ptrmensaje_a_enviar = logica->deme_tarjeta(posicion);
+        std::cout<<"medieron una posicion"<<std::endl;
+
 
     }
 
@@ -68,9 +98,17 @@ void Lectura_Mensajes::asigna_nombre_jugador(std::string cualjugador,char *texto
 
 }
 
-void Lectura_Mensajes::da_imagen_reverso() {
+void Lectura_Mensajes::da_imagen_reverso(std::string prefijo) {
+    std::string ruta;
+    if(prefijo == "R"){
+        ruta ="C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\server\\Imagenes\\Reverso_Carta.png";
 
-    std::ifstream image("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\server\\Imagenes\\Reverso_Carta.png",std::ios::in| std::ios::binary);
+    }
+    else{
+        ruta = "C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\server\\Imagenes\\Reverso_Carta_encontrada.png";
+    }
+
+    std::ifstream image(ruta,std::ios::in| std::ios::binary);
     if(!image.good()){
         std::cout<<"ERROR";
     }
@@ -90,6 +128,6 @@ void Lectura_Mensajes::da_imagen_reverso() {
     //std::cout<<texto;
     image.close();
 
-    *ptrmensaje_a_enviar = texto;
+    *ptrmensaje_a_enviar = prefijo+texto;
 
 }

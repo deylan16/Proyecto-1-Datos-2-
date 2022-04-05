@@ -4,10 +4,85 @@
 CMakeFiles/cliente.dir/Clientec/Cliente.cpp.obj: \
  ../Clientec/Cliente.cpp \
  ../Clientec/Cliente.h \
- ../Clientec/Lectura_Mensajes.h
+ ../Clientec/Lectura_Mensajes.h \
+ ../Tarjetas/PtrTarjetas.h \
+ ../Tarjetas/Tarjeta.h \
+ C:/mingw64/include/SFML/Config.hpp \
+ C:/mingw64/include/SFML/Graphics/BlendMode.hpp \
+ C:/mingw64/include/SFML/Graphics/Color.hpp \
+ C:/mingw64/include/SFML/Graphics/Drawable.hpp \
+ C:/mingw64/include/SFML/Graphics/Export.hpp \
+ C:/mingw64/include/SFML/Graphics/Image.hpp \
+ C:/mingw64/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/mingw64/include/SFML/Graphics/Rect.hpp \
+ C:/mingw64/include/SFML/Graphics/Rect.inl \
+ C:/mingw64/include/SFML/Graphics/RenderStates.hpp \
+ C:/mingw64/include/SFML/Graphics/RenderTarget.hpp \
+ C:/mingw64/include/SFML/Graphics/RenderWindow.hpp \
+ C:/mingw64/include/SFML/Graphics/Sprite.hpp \
+ C:/mingw64/include/SFML/Graphics/Transform.hpp \
+ C:/mingw64/include/SFML/Graphics/Transformable.hpp \
+ C:/mingw64/include/SFML/Graphics/Vertex.hpp \
+ C:/mingw64/include/SFML/Graphics/View.hpp \
+ C:/mingw64/include/SFML/System/Clock.hpp \
+ C:/mingw64/include/SFML/System/Export.hpp \
+ C:/mingw64/include/SFML/System/NonCopyable.hpp \
+ C:/mingw64/include/SFML/System/String.hpp \
+ C:/mingw64/include/SFML/System/String.inl \
+ C:/mingw64/include/SFML/System/Time.hpp \
+ C:/mingw64/include/SFML/System/Utf.hpp \
+ C:/mingw64/include/SFML/System/Utf.inl \
+ C:/mingw64/include/SFML/System/Vector2.hpp \
+ C:/mingw64/include/SFML/System/Vector2.inl \
+ C:/mingw64/include/SFML/Window/ContextSettings.hpp \
+ C:/mingw64/include/SFML/Window/Cursor.hpp \
+ C:/mingw64/include/SFML/Window/Export.hpp \
+ C:/mingw64/include/SFML/Window/GlResource.hpp \
+ C:/mingw64/include/SFML/Window/VideoMode.hpp \
+ C:/mingw64/include/SFML/Window/Window.hpp \
+ C:/mingw64/include/SFML/Window/WindowHandle.hpp \
+ C:/mingw64/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/cliente.dir/Clientec/Lectura_Mensajes.cpp.obj: \
  ../Clientec/Lectura_Mensajes.cpp \
- ../Clientec/Lectura_Mensajes.h
+ ../Clientec/Lectura_Mensajes.h \
+ ../Tarjetas/PtrTarjetas.h \
+ ../Tarjetas/Tarjeta.h \
+ C:/mingw64/include/SFML/Config.hpp \
+ C:/mingw64/include/SFML/Graphics/BlendMode.hpp \
+ C:/mingw64/include/SFML/Graphics/Color.hpp \
+ C:/mingw64/include/SFML/Graphics/Drawable.hpp \
+ C:/mingw64/include/SFML/Graphics/Export.hpp \
+ C:/mingw64/include/SFML/Graphics/Image.hpp \
+ C:/mingw64/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/mingw64/include/SFML/Graphics/Rect.hpp \
+ C:/mingw64/include/SFML/Graphics/Rect.inl \
+ C:/mingw64/include/SFML/Graphics/RenderStates.hpp \
+ C:/mingw64/include/SFML/Graphics/RenderTarget.hpp \
+ C:/mingw64/include/SFML/Graphics/RenderWindow.hpp \
+ C:/mingw64/include/SFML/Graphics/Sprite.hpp \
+ C:/mingw64/include/SFML/Graphics/Texture.hpp \
+ C:/mingw64/include/SFML/Graphics/Transform.hpp \
+ C:/mingw64/include/SFML/Graphics/Transformable.hpp \
+ C:/mingw64/include/SFML/Graphics/Vertex.hpp \
+ C:/mingw64/include/SFML/Graphics/View.hpp \
+ C:/mingw64/include/SFML/System/Clock.hpp \
+ C:/mingw64/include/SFML/System/Export.hpp \
+ C:/mingw64/include/SFML/System/NonCopyable.hpp \
+ C:/mingw64/include/SFML/System/String.hpp \
+ C:/mingw64/include/SFML/System/String.inl \
+ C:/mingw64/include/SFML/System/Time.hpp \
+ C:/mingw64/include/SFML/System/Utf.hpp \
+ C:/mingw64/include/SFML/System/Utf.inl \
+ C:/mingw64/include/SFML/System/Vector2.hpp \
+ C:/mingw64/include/SFML/System/Vector2.inl \
+ C:/mingw64/include/SFML/Window/ContextSettings.hpp \
+ C:/mingw64/include/SFML/Window/Cursor.hpp \
+ C:/mingw64/include/SFML/Window/Export.hpp \
+ C:/mingw64/include/SFML/Window/GlResource.hpp \
+ C:/mingw64/include/SFML/Window/VideoMode.hpp \
+ C:/mingw64/include/SFML/Window/Window.hpp \
+ C:/mingw64/include/SFML/Window/WindowHandle.hpp \
+ C:/mingw64/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/cliente.dir/Interfaz/Componentes.cpp.obj: \
  ../Interfaz/Componentes.cpp \
  ../Interfaz/Componentes.h \
@@ -148,6 +223,7 @@ CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.obj: \
  C:/mingw64/include/SFML/Config.hpp \
  C:/mingw64/include/SFML/Graphics/BlendMode.hpp \
  C:/mingw64/include/SFML/Graphics/Color.hpp \
+ C:/mingw64/include/SFML/Graphics/Drawable.hpp \
  C:/mingw64/include/SFML/Graphics/Export.hpp \
  C:/mingw64/include/SFML/Graphics/Image.hpp \
  C:/mingw64/include/SFML/Graphics/PrimitiveType.hpp \
@@ -156,7 +232,9 @@ CMakeFiles/cliente.dir/Tarjetas/PtrTarjetas.cpp.obj: \
  C:/mingw64/include/SFML/Graphics/RenderStates.hpp \
  C:/mingw64/include/SFML/Graphics/RenderTarget.hpp \
  C:/mingw64/include/SFML/Graphics/RenderWindow.hpp \
+ C:/mingw64/include/SFML/Graphics/Sprite.hpp \
  C:/mingw64/include/SFML/Graphics/Transform.hpp \
+ C:/mingw64/include/SFML/Graphics/Transformable.hpp \
  C:/mingw64/include/SFML/Graphics/Vertex.hpp \
  C:/mingw64/include/SFML/Graphics/View.hpp \
  C:/mingw64/include/SFML/System/Clock.hpp \
@@ -225,6 +303,8 @@ CMakeFiles/cliente.dir/main.cpp.obj: \
  ../Clientec/Lectura_Mensajes.h \
  ../Interfaz/Componentes.h \
  ../Interfaz/Ventana.h \
+ ../Tarjetas/PtrTarjetas.h \
+ ../Tarjetas/Tarjeta.h \
  ../main.cpp \
  C:/mingw64/include/SFML/Config.hpp \
  C:/mingw64/include/SFML/Graphics.hpp \
