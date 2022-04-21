@@ -298,7 +298,10 @@ void Ventana::juego() {
             ptr_Tarjetas->ptr_tarjetas2[i][j]->setposicion_mouse(mousex,mousey);
             //std::cout<<ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna;
             if(ptr_Tarjetas->ptr_tarjetas2[i][j]->creaBoton(ubicaionx, ubicaiony, 70, 100)){
-                if(ptr_Tarjetas->ptr_tarjetas2[i][j]->ruta != "C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\Archivos_texto\\datos_reverso_encontrada.txt"){
+                if(ptr_Tarjetas->ptr_tarjetas2[i][j]->ruta != "C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\Archivos_texto\\datos_reverso_encontrada.txt" &&
+                ptr_Tarjetas->ptr_tarjetas2[i][j]->ruta != "C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\Archivos_texto\\imagen1.txt"
+                ){
+                    //"C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\Archivos_texto\\imagen1.txt"
                     Scliente->Enviar(ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna);
                     //std::this_thread::sleep_for(std::chrono::milliseconds(3000));
                     contador_tarjetas +=1;
