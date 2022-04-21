@@ -17,10 +17,12 @@ void Ventana::ventana_principal() {
         if(*ptr_igual){
 
             if(contador_espera == 0){
-                std::cout<<"llame"<<std::endl;
+
                 //std::this_thread::sleep_for(std::chrono::milliseconds(3000));
                 Scliente->Enviar("Iguales");
                 *ptr_igual = false;
+                Scliente->Enviar("P1");
+                Scliente->Enviar("P2");
                 contador_espera= 10;
             }
             else{
@@ -241,11 +243,19 @@ void Ventana::seleccion_jugadores() {
     }
 
 void Ventana::juego() {
-    PtrTarjetas *ptr_Tarjetas = PtrTarjetas::GetInstance("Informacion");
 
+    PtrTarjetas *ptr_Tarjetas = PtrTarjetas::GetInstance("Informacion");
+    Scliente->Enviar("T");
+    Scliente->Enviar("M");
     if(carga_ing_reverso){
+
         Scliente->Enviar("R");
         Scliente->Enviar("E");
+        Scliente->Enviar("n1");
+        Scliente->Enviar("n2");
+        Scliente->Enviar("P1");
+        Scliente->Enviar("P2");
+
         carga_ing_reverso = false;
 
         for (int i = 0; i < 8; i = i + 1){
@@ -264,6 +274,14 @@ void Ventana::juego() {
         }
     }
 
+    componentes->creaLabel(800,0,30,Nombre1);
+    componentes->creaLabel(800,50,30,Puntaje1);
+    componentes->creaLabel(800,200,30,Nombre2);
+    componentes->creaLabel(800,250,30,Puntaje2);
+    std::string label_turno= "Turno jugador "+turno;
+    componentes->creaLabel(800,400,30, label_turno);
+    componentes->creaLabel(800,600,30, mensaje);
+
 
     int mousex =sf::Mouse::getPosition(*ptrwindow).x;
     int mousey = sf::Mouse::getPosition( *ptrwindow).y;
@@ -280,9 +298,16 @@ void Ventana::juego() {
             ptr_Tarjetas->ptr_tarjetas2[i][j]->setposicion_mouse(mousex,mousey);
             //std::cout<<ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna;
             if(ptr_Tarjetas->ptr_tarjetas2[i][j]->creaBoton(ubicaionx, ubicaiony, 70, 100)){
-                Scliente->Enviar(ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna);
-                //std::this_thread::sleep_for(std::chrono::milliseconds(3000));
-                contador_tarjetas +=1;
+                if(ptr_Tarjetas->ptr_tarjetas2[i][j]->ruta != "C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\cliente\\Archivos_texto\\datos_reverso_encontrada.txt"){
+                    Scliente->Enviar(ptr_Tarjetas->ptr_tarjetas2[i][j]->fila_columna);
+                    //std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+                    contador_tarjetas +=1;
+                    Scliente->Enviar("P1");
+                    Scliente->Enviar("P2");
+                }
+
+
+
 
 
             }

@@ -31,11 +31,14 @@ public:
     std::string value() const{
         return value_;
     }
+    Datos_juego *datos = Datos_juego::GetInstance("Informacion");
     std::string posicion1;
     std::string posicion2;
+    std::string mensaje;
     Matriz_disco *matriz_disco = Matriz_disco::GetInstance("Informacion");
     std::string deme_tarjeta(std::string posicion);
     std::string son_iguales();
+    void poderes(std::string tipo);
 };
 
 

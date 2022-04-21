@@ -19,6 +19,12 @@ public:
     bool *ptr_igual= nullptr;
     bool *ptrjugando = nullptr;
     bool reverso = true;
+    std::string *ptr_Nombre1 = nullptr;
+    std::string *ptr_Nombre2 = nullptr;
+    std::string *Puntaje1 = nullptr;
+    std::string *Puntaje2 = nullptr;
+    std::string *ptr_turno = nullptr;
+    std::string *ptr_mensaje = nullptr;
     void mensaje_entrante(char texto[203097]);
     std::string char_a_string(char texto[203097]);
     void setptrseleccionar_jugador2(bool *Entrada_ptrseleccionar_jugador2);

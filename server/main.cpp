@@ -5,9 +5,12 @@
 #include "Tarjetas/Matriz_memoria.h"
 #include <SFML/Graphics.hpp>
 #include <thread>
+#include<windows.h>
+#include<stdio.h>
+#include<tchar.h>
 #include "Tarjetas/Matriz_disco.h"
-
-
+#define DIV 1048576
+#define WIDTH 7
 int main() {
 
 
@@ -43,39 +46,172 @@ int main() {
 
     while(true)
     {
-        std::cout<<"*******************************************************"<<std::endl;
-        std::cout<<"Jugador 1:"<<Servidor->datos->Nombre_jugador1<<std::endl;
-        std::cout<<"Jugador 2:"<<Servidor->datos->Nombre_jugador2<<std::endl;
-        std::cout<<"Matriz en memoria"<<std::endl;
-        for(int i = 0;i<20;i = i+2){
-            if(Servidor->matriz_disco->ptr_tarjetascargadas[i] != nullptr ||Servidor->matriz_disco->ptr_tarjetascargadas[i+1] != nullptr ){
-                std::string fila;
-                if(Servidor->matriz_disco->ptr_tarjetascargadas[i] != nullptr){
-                    fila += Servidor->matriz_disco->ptr_tarjetascargadas[i]->posicion +Servidor->matriz_disco->ptr_tarjetascargadas[i]->tipo;
-                }
-                else{
-                    fila += "vacio";
-                }
-
-                fila += "||";
-                if(Servidor->matriz_disco->ptr_tarjetascargadas[i+1] != nullptr){
-                    fila += Servidor->matriz_disco->ptr_tarjetascargadas[i+1]->posicion +Servidor->matriz_disco->ptr_tarjetascargadas[i+1]->tipo;
-                }
-                else{
-                    fila += "vacio";
-                }
-                std::cout<<fila<<std::endl;
-            }
-            else{
-                std::cout<<"vacio || vacio"<<std::endl;
-            }
-        }
-
-        std::cout<<"*******************************************************"<<std::endl;
         Servidor->Recibir();
 
+        std::string matriz;
+        /*for(int i = 0;i<20;i = i+2){
+            std::cout<<i<<std::endl;
+                /*if(Servidor->matriz_disco->ptr_tarjetascargadas[i] != nullptr ||Servidor->matriz_disco->ptr_tarjetascargadas[i+1] != nullptr ){
+                    std::string fila;
+                    if(Servidor->matriz_disco->ptr_tarjetascargadas[i] != nullptr){
+                        fila += Servidor->matriz_disco->ptr_tarjetascargadas[i]->posicion +Servidor->matriz_disco->ptr_tarjetascargadas[i]->tipo;
+                    }
+                    else{
+                        fila += "vacio";
+                    }
+
+                    fila += "||";
+                    if(Servidor->matriz_disco->ptr_tarjetascargadas[i+1] != nullptr){
+                        fila += Servidor->matriz_disco->ptr_tarjetascargadas[i+1]->posicion +Servidor->matriz_disco->ptr_tarjetascargadas[i+1]->tipo;
+                    }
+                    else{
+                        fila += "vacio";
+                    }
+                    matriz += fila;
+                }
+                else{
+                    matriz += "vacio || vacio";
+                }
+                matriz += "\n";*/
+            //}
+        if(Servidor->datos->mostrar){
+            std::cout<<"*******************************************************"<<std::endl;
+            std::cout<<"Jugador 1:"<<Servidor->datos->Nombre_jugador1<<"                 "<<"Puntaje:"<<Servidor->datos->puntaje_jugador1<<"                 "<<"Page faults:"<<Servidor->datos->page_faults<<std::endl;
+            std::cout<<"Jugador 2:"<<Servidor->datos->Nombre_jugador2<<"                 "<<"Puntaje:"<<Servidor->datos->puntaje_jugador2<<"                 "<<"Page hit:"<<Servidor->datos->page_hit<<std::endl;
+
+            std::cout<<"Matriz en memoria"<<std::endl;
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[0] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[0]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[0]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[1] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[1]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[1]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[2] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[2]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[2]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[3] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[3]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[3]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[4] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[4]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[4]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[5] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[5]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[5]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[6] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[6]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[6]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[7] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[7]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[7]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[8] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[8]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[8]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[9] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[9]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[9]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[10] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[10]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[10]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[11] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[11]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[11]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[12] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[12]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[12]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[13] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[13]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[13]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[14] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[14]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[14]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[15] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[15]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[15]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[16] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[16]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[16]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[17] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[17]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[17]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[18] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[18]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[18]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+            if(Servidor->matriz_disco->ptr_tarjetascargadas[19] != nullptr){
+                std::cout<<Servidor->matriz_disco->ptr_tarjetascargadas[19]->posicion <<Servidor->matriz_disco->ptr_tarjetascargadas[19]->tipo<<std::endl;}
+            else{
+                std::cout<<"Vacio"<<std::endl;
+            }
+
+
+            std::ifstream archivo;
+            archivo.open("C:\\Users\\deyla\\OneDrive\\Escritorio\\Proyecto 1 Datos 2\\Proyecto-1-Datos-2-\\server\\Tarjetas\\informcaion_tarjetas.txt",std::ios::in);
+            if(archivo.fail()){
+                std::cout<<"ERROR";
+            }
+            std::string texto;
+
+
+            while (getline(archivo, texto)) {
+                std::string primera = "";
+                primera += texto[0];
+                if(primera == "f" || primera == "t")
+                    std::cout<<texto<<std::endl;
+            }
+            MEMORYSTATUSEX statex;
+
+            statex.dwLength = sizeof (statex);
+
+            GlobalMemoryStatusEx (&statex);
+            _tprintf (TEXT("  %*ld porciento de memoria en uso.\n"),WIDTH, statex.dwMemoryLoad);
+            _tprintf (TEXT(" %*I64d total Mbytes  de memoria.\n"),WIDTH,statex.ullTotalPhys/DIV);
+            _tprintf (TEXT(" %*I64d  Mbytes libres de memoria.\n"),WIDTH, statex.ullAvailPhys/DIV);
+
+
+            std::cout<<"*******************************************************"<<std::endl;
+
+        }
 
         //Servidor->Enviar();
+
 
     }
 

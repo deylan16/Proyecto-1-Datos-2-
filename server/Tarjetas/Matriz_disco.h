@@ -9,6 +9,7 @@
 #include <mutex>
 #include "Matriz_memoria.h"
 #include "Tarjetas_Cargadas.h"
+#include "../Servidor/Datos_juego.h"
 
 class Matriz_disco {
 private:
@@ -38,13 +39,15 @@ public:
 
     Tarjetas_Cargadas *ptr_tarjetascargadas[20];
     Matriz_memoria *matriz_en_memoria = Matriz_memoria::GetInstance("Informacion");
+    Datos_juego *datos = Datos_juego::GetInstance("Informacion");
 
     void iniciamatriz();
+    void shuffle();
 
     std::basic_string<char> deme_la_imagen(std::string posicion);
     Tarjetas_Cargadas * cargarTarjeta(std::string posicion, std::string informacion);
     std::string estacargada(std::string posicion);
-    std::string deme_la_tipo(std::string posicion);
+    std::string deme_la_tipo(std::string ptr_posicion);
 
 };
 

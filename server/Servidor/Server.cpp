@@ -27,7 +27,7 @@ Server::Server() {
 
 std::string Server::Recibir() {
     recv(client, buffer, sizeof(buffer), 0);
-    std::cout << "El cliente dice: " << buffer << std::endl;
+    //std::cout << "El cliente dice: " << buffer << std::endl;
     lector->mensaje_entrante(buffer);
     while(true){
         if(mensaje_a_enviar != ""){

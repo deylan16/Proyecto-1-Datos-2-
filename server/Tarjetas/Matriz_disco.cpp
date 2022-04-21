@@ -20,6 +20,13 @@ std::string Matriz_disco::deme_la_imagen(std::string posicion) {
 
     //std::cout<<estacargada(posicion);
     std::string esta = estacargada(posicion);
+    if(esta == "NO"){
+        datos->page_faults += 1;
+
+    }
+    else{
+        datos->page_hit += 1;
+    }
     if(esta != "NO"){
         std::cout<<"esta:"<<posicion<<std::endl;
         return ptr_tarjetascargadas[stoi(esta)]->imagen;
@@ -66,6 +73,7 @@ std::string Matriz_disco::estacargada(std::string posicion) {
         }
 
     }
+
 
     //std::cout<<salida;
     return salida;
@@ -135,5 +143,21 @@ std::string Matriz_disco::deme_la_tipo(std::string posicion) {
 
         return ptr_tarjetascargadas[espacio_en_tarjetas]->tipo;
 }}
+
+void Matriz_disco::shuffle() {
+
+    srand (time(NULL));
+    for(int i= 0;i< 20;i++){
+        int posicion = rand() % 7;
+        int posicion2 = rand() % 7;
+        std::string pos;
+        pos += std::to_string(posicion) ;
+        pos += ":";
+        pos += std::to_string(posicion2);
+        std::cout<<pos<<std::endl;
+        deme_la_tipo(pos);
+    }
+
+}
 
 std::mutex Matriz_disco::mutex_;

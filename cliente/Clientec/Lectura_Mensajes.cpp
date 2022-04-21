@@ -21,6 +21,66 @@ void Lectura_Mensajes::mensaje_entrante(char texto[203097]) {
         *ptrseleccionado_jugadores = false;
         *ptrjugando = true;
     }
+    if (primero == "n"){
+        std::string numero;
+        numero += texto[1];
+        std::string mensaje;
+        int i = 2;
+        while(true){
+            if(texto[i] != NULL){
+                mensaje += texto[i];
+                i += 1;
+
+            }
+            else
+                break;
+        }
+        if(numero == "1"){
+            *ptr_Nombre1 = mensaje;
+        }
+        else{
+            *ptr_Nombre2 = mensaje;
+        }}
+    if (primero == "P"){
+        std::string numero;
+        numero += texto[1];
+        std::string mensaje;
+        int i = 2;
+        while(true){
+            if(texto[i] != NULL){
+                mensaje += texto[i];
+                i += 1;
+
+            }
+            else
+                break;
+        }
+        if(numero == "1"){
+            *Puntaje1 = mensaje;
+        }
+        else{
+            *Puntaje2 = mensaje;
+        }}
+    if (primero == "T"){
+        std::string numero;
+        numero += texto[1];
+        *ptr_turno = numero;
+    }
+    if (primero == "M"){
+
+        std::string mensaje;
+        int i = 1;
+        while(true){
+            if(texto[i] != NULL){
+                mensaje += texto[i];
+                i += 1;
+
+            }
+            else
+                break;
+        }
+        *ptr_mensaje = mensaje;
+    }
     if(primero == "S"|| primero == "N"){
         son_iguales(mensaje);
     }

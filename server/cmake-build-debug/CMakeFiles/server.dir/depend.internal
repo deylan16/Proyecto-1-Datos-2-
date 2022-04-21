@@ -13,6 +13,7 @@ CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_memoria.h
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Tarjetas_Cargadas.h
 CMakeFiles/server.dir/Servidor/Logica_juego.cpp.obj
+ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Datos_juego.h
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Logica_juego.cpp
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Logica_juego.h
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_disco.h
@@ -28,6 +29,7 @@ CMakeFiles/server.dir/Servidor/Server.cpp.obj
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_memoria.h
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Tarjetas_Cargadas.h
 CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj
+ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Datos_juego.h
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_disco.cpp
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_disco.h
  C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_memoria.h

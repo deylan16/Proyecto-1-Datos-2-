@@ -32,6 +32,19 @@ public:
     bool igual = false;
     bool *ptr_igual = &igual;
     int contador_espera = 10;
+    std::string Nombre1;
+    std::string *ptr_Nombre1 = &Nombre1;
+    std::string Nombre2;
+    std::string *ptr_Nombre2 = &Nombre2;
+    std::string Puntaje1;
+    std::string *ptr_Puntaje1 = &Puntaje1;
+    std::string Puntaje2;
+    std::string *ptr_Puntaje2 = &Puntaje2;
+    std::string turno= "1";
+    std::string *ptr_turno = &turno;
+    std::string mensaje= "";
+    std::string *ptr_mensaje = &mensaje;
+
 
     Ventana(Cliente Scliente1, sf::RenderWindow *window);
     void seleccion_jugadores();

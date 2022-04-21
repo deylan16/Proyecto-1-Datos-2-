@@ -36,8 +36,12 @@ public:
     //******************************
     std::string Nombre_jugador1;
     std::string Nombre_jugador2;
-    int Nombre_jugador1;
-    int puntaje_jugador2;
+    bool mostrar = true;
+    std::string  jugando = "1";
+    int puntaje_jugador1 = 0;
+    int puntaje_jugador2= 0;
+    int page_faults = 0;
+    int page_hit= 0;
 };
 
 

@@ -13,6 +13,7 @@ CMakeFiles/server.dir/Servidor/Lectura_Mensajes.cpp.obj: \
  ../Tarjetas/Matriz_memoria.h \
  ../Tarjetas/Tarjetas_Cargadas.h
 CMakeFiles/server.dir/Servidor/Logica_juego.cpp.obj: \
+ ../Servidor/Datos_juego.h \
  ../Servidor/Logica_juego.cpp \
  ../Servidor/Logica_juego.h \
  ../Tarjetas/Matriz_disco.h \
@@ -28,6 +29,7 @@ CMakeFiles/server.dir/Servidor/Server.cpp.obj: \
  ../Tarjetas/Matriz_memoria.h \
  ../Tarjetas/Tarjetas_Cargadas.h
 CMakeFiles/server.dir/Tarjetas/Matriz_disco.cpp.obj: \
+ ../Servidor/Datos_juego.h \
  ../Tarjetas/Matriz_disco.cpp \
  ../Tarjetas/Matriz_disco.h \
  ../Tarjetas/Matriz_memoria.h \

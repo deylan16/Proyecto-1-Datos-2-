@@ -41,6 +41,8 @@ Matriz_memoria.h
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_memoria.h
 Tarjetas_Cargadas.h
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Tarjetas_Cargadas.h
+../Servidor/Datos_juego.h
+C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Servidor/Datos_juego.h
 
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_memoria.h
 mutex
@@ -64,6 +66,12 @@ C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server
 SFML/Graphics.hpp
 -
 thread
+-
+windows.h
+-
+stdio.h
+-
+tchar.h
 -
 Tarjetas/Matriz_disco.h
 C:/Users/deyla/OneDrive/Escritorio/Proyecto 1 Datos 2/Proyecto-1-Datos-2-/server/Tarjetas/Matriz_disco.h
