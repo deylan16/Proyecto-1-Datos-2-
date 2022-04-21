@@ -14,33 +14,6 @@
 int main() {
 
 
-
-    /*std::cout<<matriz_disco->deme_la_imagen("1:0")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("4:4")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("7:6")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("5:3")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("3:2")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("6:6")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("1:3")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("0:4")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("3:3")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("4:3")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("7:4")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("6:3")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("2:3")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("1:4")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("5:6")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("5:1")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("3:7")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("6:2")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("1:7")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("0:6")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("7:7")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("1:1")<<std::endl;
-    std::cout<<matriz_disco->deme_la_imagen("1:6")<<std::endl;*/
-
-
-
     Server *Servidor = new Server();
     Servidor->matriz_disco->iniciamatriz();
 
