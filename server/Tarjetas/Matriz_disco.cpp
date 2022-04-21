@@ -155,7 +155,8 @@ void Matriz_disco::shuffle() {
         pos += ":";
         pos += std::to_string(posicion2);
         std::cout<<pos<<std::endl;
-        deme_la_tipo(pos);
+        if(ptr_tarjetascargadas[this->espacio_en_tarjetas] != nullptr)
+            deme_la_tipo(pos);
     }
 
 }

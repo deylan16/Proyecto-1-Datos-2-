@@ -61,6 +61,8 @@ void Lectura_Mensajes::mensaje_entrante(char *texto) {
 
             *ptrmensaje_a_enviar =  "SiSon"+logica->posicion1+logica->posicion2;
             logica->poderes( matriz_disco->deme_la_tipo(logica->posicion1));
+            matriz_disco->ptr_tarjetascargadas[ stoi(matriz_disco->estacargada(logica->posicion1))] = nullptr;
+            matriz_disco->ptr_tarjetascargadas[ stoi(matriz_disco->estacargada(logica->posicion2))] = nullptr;
             logica->posicion1 = "";
             logica->posicion2 = "";
             matriz_disco->shuffle();

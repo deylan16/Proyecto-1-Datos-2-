@@ -1,8 +1,8 @@
-fRampart&fCaustic&fRampage&fMirage&fPathfinder&fBloodhound&fVolt&fMastiff&
-fPeacekeeper&fWraith&fMaggie&fSeer&fFlatline&fBocek&fBangalore&fWattson&
-fFlatline&fHorizon&fOctane&fMirage&fValkyrie&fR-301&fDevotion&fAsh&
-fBangalore&fRevenant&fCrypto&fDevotion&fOctane&fMaggie&fKraber&fBloodhound&
-fLifeline&fGibraltar&fFuse&fRampart&fKraber&fPathfinder&fRampage&fSentinel&
-fPeacekeeper&fTriple_take&fValkyrie&fLoba&fSeer&fFuse&fR-301&fProwler&
-fLoba&fLifeline&fGibraltar&fRevenant&fHorizon&fCrypto&fWraith&fProwler&
-fBocek&fSentinel&fWattson&fTriple_take&fVolt&fMastiff&fCaustic&fAsh&
+fCrypto&fBloodhound&fBangalore&fOctane&fMastiff&fDevotion&fKraber&fAsh&
+fPathfinder&fMaggie&fFlatline&fDevotion&fValkyrie&fSentinel&fFuse&fCaustic&
+fRampart&fRevenant&fGibraltar&fWattson&fHorizon&fWraith&fLoba&fOctane&
+fR-301&fPeacekeeper&fProwler&fTriple_take&fSeer&fProwler&fRampage&fRampart&
+fGibraltar&fVolt&fRevenant&fVolt&fR-301&fHorizon&fMastiff&fSentinel&
+fFuse&fWattson&fAsh&fKraber&fBloodhound&fLifeline&fBangalore&fValkyrie&
+fCrypto&fMaggie&fBocek&fLoba&fFlatline&fWraith&fCaustic&fPeacekeeper&
+fBocek&fTriple_take&fMirage&fMirage&fRampage&fLifeline&fSeer&fPathfinder&
